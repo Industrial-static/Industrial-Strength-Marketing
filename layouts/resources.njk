@@ -1,0 +1,34 @@
+{% extends "layout.njk" %}
+{% block body %}
+<div class="container-fluid">
+    
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="resources-grid">
+                {% for item in resources |sort(false, true, 'order') %}
+                {% if item.active %}
+                <div class="resource">
+                    <a target="_blank" href="{{item.url}}" data-ga-event="Resources" data-ga-action="Click" data-ga-label="{{item.headline}}">
+                        <img src="{{item.img}}" alt="" class="img-responsive" />
+                    </a>
+                    <div class="content-title upper"><a target="_blank" href="{{item.url}}">{{item.headline}}</a></div>
+                    <p>{{item.copy}}</p>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <hr>
+        <div class="col-sm-12 text-center">
+            <p class="leadin">
+                Have an idea for our next marketing guide?<br> Contact us now and let us know!<br>
+                <a href="/contact/" class="btn btn-default">Send Us a Message</a>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
