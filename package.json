@@ -14,7 +14,7 @@
         "build:public": "cp -R public/* build/",
         "build:admin:config": "node src/admin/preprocess.js src/admin/admin-template.yml public/admin/config.yml",
         "build:css": "lessc --js src/less/style.less public/css/style.css  --clean-css='--s0 --advanced'  --source-map && cp -R public/css build/",
-        "build:js": "uglifyjs node_modules/@glidejs/glide/dist/glide.min.js node_modules/headroom.js/dist/headroom.min.js src/js/lib/*.js src/js/*.js --output public/js/scripts.js && (xcopy public\\js build\\ /E /I /Y || cp -R public/js build/) && npm run build:marketing-roi-calculator:js",
+        "build:js": "uglifyjs node_modules/@glidejs/glide/dist/glide.min.js node_modules/headroom.js/dist/headroom.min.js src/js/lib/*.js src/js/*.js --output public/js/scripts.js && cp -R public/js build/ && npm run build:marketing-roi-calculator:js",
         "build:marketing-roi-calculator:js": "mkdir -p public/js/marketing-roi-calculator && terser  node_modules/chart.js/dist/chart.min.js src/js/marketing-roi-calculator/app.js  --output public/js/marketing-roi-calculator/app.js && cp -R public/js build/",
         "debug": "export DEBUG=metalsmith:*; npm run build",
         "watch": "npm run watch:css & npm run watch:js & npm run watch:metalsmith",
@@ -62,5 +62,10 @@
         "netlify-cms-proxy-server": "^1.3.24",
         "npx": "^10.2.2",
         "request-promise-native": "^1.0.8"
+    }
+
+    "engines": {
+      "node": "16.x",   // Or the version you're using locally
+      "npm": "7.x"
     }
 }
