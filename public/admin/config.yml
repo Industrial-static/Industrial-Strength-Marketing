@@ -839,7 +839,7 @@ collections:
       name: work
       file: "src/content/work.md"
       fields:
-        - {label: "Layout", name: "layout", widget: "hidden", default: "work.njk"}
+        - {label: "Layout", name: "layout", widget: "hidden", default: "work-index.njk"}
         - {label: "Title", name: "title", widget: "string"}
         - label: SEO
           name: "seo"
