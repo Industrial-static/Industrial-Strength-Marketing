@@ -837,7 +837,7 @@ collections:
 
     - label: "Work"
       name: work
-      file: "src/content/about/work.md"
+      file: "src/content/work/index.md"
       fields:
         - {label: "Layout", name: "layout", widget: "hidden", default: "work.njk"}
         - {label: "Title", name: "title", widget: "string"}
