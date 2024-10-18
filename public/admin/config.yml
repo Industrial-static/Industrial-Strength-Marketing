@@ -1279,10 +1279,10 @@ collections:
         required: false
         fields:
           - {label: "img", name: "img", widget: "hidden", default: "/img/podcasts-jumbotron.jpg"}
-   - name: "work"
+  - name: "Work"
     label: "work"
     label_singular: "Podcast"
-    folder: "src/content/insights/podcast/"
+    folder: "src/content/insights/Work/"
     filter: {field: "layout", value: "blog-post.njk"}
     create: true
     fields:
