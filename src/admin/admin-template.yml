@@ -5,21 +5,7 @@ display_url: /
 media_folder: "public/img/uploads" # Media files will be stored in the repo at this location
 public_folder: "/img/uploads" # The src attribute for uploaded media will begin with this
 collections:
-  - label: Settings
-    name: settings
-    files:
-    <!-- @include redirects.yml -->
-  - label: "Pages"
-    name: pages
-    files:
-      - label: "About Page"
-        name: about
-        file: "src/content/about/index.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "about.njk"}
-          <!-- @include-static partials/base-fields.yml -->
-          <!-- @include-static partials/jumbotron.yml -->
-          - {label: "Body", name: "body", widget: "markdown"}
+  
       - label: "Clients Page"
         name: clients
         file: "src/content/clients/index.md"
