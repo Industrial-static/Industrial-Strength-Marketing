@@ -38,8 +38,8 @@ collections:
               - {label: "Canonical link", name: "canonical", widget: "string", required: false, hint: "Not required. One will be generated if not filled in."}
           <!-- @include-static partials/jumbotron.yml -->
           - {label: "Body", name: "body", widget: "markdown"}
-          - label: "Work Case Studies"
           <!-- @include-static partials/case_studies.yml -->
+          # - label: "Work Case Studies"
             # name: "case_studies"
             # widget: "list"
             # required: false
