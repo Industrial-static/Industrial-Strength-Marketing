@@ -25,7 +25,8 @@ collections:
         file: "src/content/work/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about.njk"}
-          
+          - {label: "Page Title", name: "page_title", widget: "string"}
+          - {label: "Page Description", name: "description", widget: "string", required: false}
           <!-- @include-static partials/jumbotron.yml -->
           - {label: "Body", name: "body", widget: "markdown"}
           - label: "Work Case Studies"
