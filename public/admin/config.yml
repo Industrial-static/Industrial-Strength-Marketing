@@ -76,6 +76,7 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "work-index.njk"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Page Description", name: "description", widget: "string", required: false}
           - label: SEO
             name: "seo"
             widget: "object"
