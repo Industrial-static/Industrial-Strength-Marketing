@@ -28,6 +28,16 @@ collections:
           <!-- @include-static partials/base-fields.yml -->
           <!-- @include-static partials/jumbotron.yml -->
           - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Work Case Studies"
+            name: "case_studies"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Image Alt Text", name: "image_alt", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
       - label: "Clients Page"
         name: clients
         file: "src/content/clients/index.md"
