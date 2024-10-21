@@ -20,14 +20,6 @@ collections:
           <!-- @include-static partials/base-fields.yml -->
           <!-- @include-static partials/jumbotron.yml -->
           - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Work Page"
-          name: work
-          file: "src/content/work/index.md"
-          fields:
-            - {label: "Layout", name: "layout", widget: "hidden", default: "about.njk"}
-            <!-- @include-static partials/base-fields.yml -->
-            <!-- @include-static partials/jumbotron.yml -->
-            - {label: "Body", name: "body", widget: "markdown"}
       - label: "Clients Page"
         name: clients
         file: "src/content/clients/index.md"
