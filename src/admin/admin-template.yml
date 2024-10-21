@@ -22,7 +22,7 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Work Page"
         name: work
-        file: "src/content/about/index.md"
+        file: "src/content/work/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about.njk"}
           <!-- @include-static partials/base-fields.yml -->
