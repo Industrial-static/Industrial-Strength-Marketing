@@ -311,6 +311,20 @@ collections:
       - {label: "Twitter", name: "twitter", widget: "string",  required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
       - {label: "Order", name: "order", widget: "number", required: true, value_type: "int"}
+  - name: "social_media"
+    label: "Social Media"
+    folder: "src/content/social_media"
+    create: true
+    delete: false
+    slug: 'social-media'
+    fields:
+      - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
+      - {label: 'X URL', name: 'x', widget: 'string'}
+      - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string'}
+      - {label: 'Instagram URL', name: 'instagram', widget: 'string'}
+      - {label: 'YouTube URL', name: 'youtube', widget: 'string}
+      - {label: 'TikTok URL', name: 'tiktok', widget: 'string'}
+      - {label: 'Email Address', name: 'email', widget: 'string', required: false}
   - name: "clients" 
     label: "Client" 
     folder: "src/content/clients" 
