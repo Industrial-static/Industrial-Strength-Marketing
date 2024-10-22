@@ -75,9 +75,9 @@ collections:
             name: "contact_detail"
             widget: "object"
             fields:
-              - {label: "Section Title", name: "section_title", widget: "string", required: true}
-              - {label: "Section Image", name: "section_image", widget: "image", required: false}
-              - {label: "Section Description", name: "section_description", widget: "text", required: true}
+              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Description", name: "description", widget: "text", required: true}
       - label: "Clients Page"
         name: clients
         file: "src/content/clients/index.md"
