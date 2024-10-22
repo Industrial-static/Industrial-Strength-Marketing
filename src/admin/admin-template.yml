@@ -131,8 +131,8 @@ collections:
             widget: list
             collapsed: true
             fields:
-              - {label: "Image", name: "image", widget: "image", required: "true"}
-              - {label: "URL", name: "url", widget: "string", required: "true"}
+              - {label: "Image", name: "image", widget: "image", required: true}
+              - {label: "URL", name: "url", widget: "string", required: true}
               - {label: "Description", name: "description", widget: "text", required: true}
       - label: "Home Page"
         name: home
