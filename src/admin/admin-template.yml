@@ -318,6 +318,7 @@ collections:
     delete: false
     slug: 'social-media'
     fields:
+      - {label: 'Links', name: 'link', widget: 'string'}
       - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
       - {label: 'Twitter (X) URL', name: 'x', widget: 'string'}
       - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string'}
