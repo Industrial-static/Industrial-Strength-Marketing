@@ -20,6 +20,13 @@ collections:
           <!-- @include-static partials/base-fields.yml -->
           <!-- @include-static partials/jumbotron.yml -->
           - {label: "Body", name: "body", widget: "markdown"}
+       - label: "Privacy-Policy Page"
+         name: "privacy_policy"
+         file: "src/content/privacy_policy/index.md"
+         fields:
+           - {label: "Layout", name: "layout", widget: "hidden", default: "about.njk"}
+           - {label: "Title", name: "title", widget: "string"}
+           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Work Page"
         name: work
         file: "src/content/work/index.md"
