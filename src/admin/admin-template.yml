@@ -164,7 +164,7 @@ collections:
                     name: "services_list"
                     widget: "list"
                     fields:
-                      - {label: "Service Item", name: "service_item", widget: "string", default: "Develop a brand strategy"}
+                      - {label: "Service Item", name: "service_item", widget: "string"}
           - label: "Free Consultation Form"
             name: "consultation_form"
             widget: "object"
