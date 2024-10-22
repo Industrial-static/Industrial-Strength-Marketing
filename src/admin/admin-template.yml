@@ -60,6 +60,7 @@ collections:
           - label: "Contact Form"
             name: "contact_form"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "First Name", name: "first_name", widget: "string", required: true}
               - {label: "Last Name", name: "last_name", widget: "string", required: true}
@@ -67,13 +68,11 @@ collections:
               - {label: "Company Name", name: "company_name", widget: "string", required: true}
               - {label: "Phone Number", name: "phone_number", widget: "string", required: true}
               - {label: "Message/Comments", name: "message", widget: "text", required: true}
-          - label: "Send Button"
-            name: "send_button"
-            widget: "string"
-            default: "Send"
+              - {label: "Send Button", name: "send_button", widget: "string", default: "Send"}
           - label: "Contact Detail"
             name: "contact_detail"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Title", name: "title", widget: "string", required: true}
               - {label: "Image", name: "image", widget: "image", required: false}
