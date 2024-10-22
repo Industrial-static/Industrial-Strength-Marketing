@@ -318,10 +318,10 @@ collections:
     delete: false
     slug: 'social-media'
     fields:
+      - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
       - {label: 'X URL', name: 'x', widget: 'string'}
       - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string'}
       - {label: 'Instagram URL', name: 'instagram', widget: 'string'}
-      - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
       - {label: 'YouTube URL', name: 'youtube', widget: 'string'}
       - {label: 'TikTok URL', name: 'tiktok', widget: 'string'}
       - {label: 'Email Address', name: 'email', widget: 'string', required: false}
