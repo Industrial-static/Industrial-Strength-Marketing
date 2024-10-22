@@ -80,6 +80,7 @@ collections:
           - label: "Marketing Section"
             name: "marketing_section"
             widget: "object"
+            collapsed: true
             fields:
               - label: "Content Items"
                 name: "content_items"
