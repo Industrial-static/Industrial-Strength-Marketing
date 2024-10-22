@@ -100,7 +100,7 @@ collections:
                   - {label: "Link URL2", name: "url2", widget: "string", required: true}
                   # - {label: "Button Text", name: "button_text", widget: "string", required: true}
       - label: "Clients Page"
-        name: clients
+        name: "clients"
         file: "src/content/clients/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
@@ -108,8 +108,8 @@ collections:
           <!-- @include-static partials/jumbotron.yml -->
           - {label: "Body", name: "body", widget: "markdown"}
           - label: "Clients"
-            name: clients
-            widget: list
+            name: "clients"
+            widget: "list"
             fields:
               - {label: "Title", name: "title", widget: "string", tagname: "h3"}
               - {label: "Text", name: "content", widget: "text"}
@@ -121,11 +121,17 @@ collections:
             fields:
               - {label: "Image", name: "img", widget: "image"}
       - label: "Resources Page"
-        name: resources
+        name: "resources"
         file: "src/content/resources/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
-          <!-- @include-static partials/jumbotron.yml -->
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Description", name: "description", widget: "text", required: true}
+              - {label: "Image", name: "image", widget: "image", required: true}
           - label: "Resource List"
             name: resource_list
             widget: list
