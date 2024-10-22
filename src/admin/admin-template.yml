@@ -148,8 +148,23 @@ collections:
         file: "src/content/free_consultation/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
-          - {label: "Contact Message", name: "contact", widget: "string", required: true}
-          - {label: "Contact URL", name: "contact_url", widget: "string", required: true}
+          - label: "Marketing Consultation"
+            name: "marketing_consultation"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Description", name: "description", widget: "text", required: true}
+              - label: "Our Experts Can Help You Section"
+                name: "help_section"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - label: "List of Services"
+                    name: "services_list"
+                    widget: "list"
+                    fields:
+                      - {label: "Service Item", name: "service_item", widget: "string", default: "Develop a brand strategy"}
           - label: "Free Consultation Form"
             name: "consultation_form"
             widget: "object"
