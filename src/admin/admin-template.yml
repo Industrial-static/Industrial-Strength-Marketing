@@ -143,6 +143,26 @@ collections:
               - {label: "Description", name: "description", widget: "text", required: true}
           - {label: "Contact Message", name: "contact", widget: "string", required: true}
           - {label: "Contact URL", name: "contact_url", widget: "string", required: true}
+      - label: "Free Consultation"
+        name: "free_consultation"
+        file: "src/content/free_consultation/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
+          - {label: "Contact Message", name: "contact", widget: "string", required: true}
+          - {label: "Contact URL", name: "contact_url", widget: "string", required: true}
+          - label: "Free Consultation Form"
+            name: "consultation_form"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "First Name", name: "first_name", widget: "string", required: true}
+              - {label: "Last Name", name: "last_name", widget: "string", required: true}
+              - {label: "Company Email", name: "company_email", widget: "string", required: true}
+              - {label: "Company Name", name: "company_name", widget: "string", required: true}
+              - {label: "Website URL", name: "website_url", widget: "string", required: true}
+              - {label: "Phone Number", name: "phone_number", widget: "string", required: true}
+              - {label: "Message/Comments", name: "message", widget: "text", required: true}
+              - {label: "Send Button", name: "send_button", widget: "string", default: "Get Your Consultation Button"}
       - label: "Home Page"
         name: home
         file: "src/content/index.md"
