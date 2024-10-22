@@ -46,7 +46,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about.njk"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Page Description", name: "description", widget: "string", required: false}
-          - {label: "Text", name: "content", widget: "text"}
+          - {label: "Contact Number", name: "contact_number", widget: "string"}
           - label: SEO
             name: "seo"
             widget: "object"
