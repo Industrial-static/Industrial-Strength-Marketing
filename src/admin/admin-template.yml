@@ -59,6 +59,20 @@ collections:
               - {label: "Canonical link", name: "canonical", widget: "string", required: false, hint: "Not required. One will be generated if not filled in."}
           - {label: "Body", name: "body", widget: "markdown"}
           <!-- @include-static partials/case_studies.yml -->
+          - label: "Contact Form"
+            name: "contact_form"
+            widget: "object"
+            fields:
+              - {label: "First Name", name: "first_name", widget: "string", required: true}
+              - {label: "Last Name", name: "last_name", widget: "string", required: true}
+              - {label: "Company Email", name: "company_email", widget: "string", required: true}
+              - {label: "Company Name", name: "company_name", widget: "string", required: true}
+              - {label: "Phone Number", name: "phone_number", widget: "string", required: true}
+              - {label: "Message/Comments", name: "message", widget: "text", required: true}
+          - label: "Send Button"
+            name: "send_button"
+            widget: "string"
+            default: "Send"
       - label: "Clients Page"
         name: clients
         file: "src/content/clients/index.md"
