@@ -107,7 +107,7 @@ collections:
           <!-- @include-static partials/base-fields.yml -->
           <!-- @include-static partials/jumbotron.yml -->
           - {label: "Body", name: "body", widget: "markdown"}
-          - label: Clients
+          - label: "Clients"
             name: clients
             widget: list
             fields:
@@ -125,8 +125,15 @@ collections:
         file: "src/content/resources/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
-          <!-- @include-static partials/base-fields.yml -->
-          - {label: "Body", name: "body", widget: "markdown"}
+          <!-- @include-static partials/jumbotron.yml -->
+          - label: "Resource List"
+            name: resource_list
+            widget: list
+            collapsed: true
+            fields:
+              - {label: "Image", name: "image", widget: "image", required: "true"}
+              - {label: "URL", name: "url", widget: "string", required: "true"}
+              - {label: "Description", name: "description", widget: "text", required: true}
       - label: "Home Page"
         name: home
         file: "src/content/index.md"
