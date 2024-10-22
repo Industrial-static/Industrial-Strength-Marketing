@@ -1,4 +1,5 @@
 ---
+web_link: https://industrialstrengthmarketing.com/
 facebook: https://facebook.com
 x: https://x.com
 linkedin: https://www.linkedin.com
