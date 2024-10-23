@@ -1,7 +1,7 @@
 {% extends "layout.njk" %}
 {% block body %}
 <div class="container-fluid">
-    {% for item in case_studies %}
+    {% for item in case_studies[0] %}
     <div class="row case-study">
         <div class="col-sm-7 col-sm-push-5">
             <div class="img-container"><a href="{{item.path}}"><img src="{{ item.overviewimg}}" width="736" class="img-responsive img-case-study-overview" alt="{{ (item.overviewimg_alt | default("")) | e}}"></a></div>
