@@ -84,7 +84,7 @@ collections:
               - {label: "Company Name", name: "company_name", widget: "string", required: false}
               - {label: "Phone Number", name: "phone_number", widget: "string", required: false}
               - {label: "Message/Comments", name: "message", widget: "text", required: false}
-              - {label: "Send Button", name: "send_button", widget: "string", default: "Send"}
+              - {label: "Send Button", name: "send_button", widget: "string", default: "Send", required: false}
           - label: "Contact Detail"
             name: "contact_detail"
             widget: "object"
