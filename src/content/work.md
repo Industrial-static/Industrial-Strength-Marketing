@@ -12,11 +12,11 @@ jumbotron:
   tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/heros/work-hero.webp
 case_studies:
-  - heading: Southern Metal Fabricators
+  - heading: Duroair Technologies
     description: L﻿earn how industrial website development helped transform Southern
       Metal Fabricators into an online presence for successful lead generation.
-    url: https://industrialsitepannel.netlify.app/work/southern-metal-fabricators/
-    image: /img/uploads/img2.jpg
+    url: https://industrialstrengthmarketing.com/work/duroair-technologies/
+    image: /img/uploads/duroair-overview.jpg
     image_alt: None
 ---
 Demo
