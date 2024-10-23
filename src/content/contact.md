@@ -4,7 +4,7 @@ description: >-
   <!--StartFragment-->
 
 
-  Please use the form on this page for any general inquiries about projects, our work, or just to say "hi." If you are looking for employment, please visit our [Careers page](https://industrialstrengthmarketing.com/about/careers/) to learn more about working with us, and a list of open positions.
+  Please use the form on this page for any general inquiries about projects, our work, or just to say "hi." If you are looking for employment, please visit our [``](https://industrialstrengthmarketing.com/about/careers/)<a href="https://industrialstrengthmarketing.com/about/careers/">Careers page</a> to learn more about working with us, and a list of open positions.
 
 
   Prefer immediate human interaction?
