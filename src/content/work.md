@@ -8,7 +8,7 @@ seo:
     taking the industrial advertising agency to a new level.
   page_title: "Our Work: Here’s how to market a manufacturing company"
 jumbotron:
-  headline: Our Work
+  headline: Our Work Page
   tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/heros/work-hero.webp
 case_studies:
