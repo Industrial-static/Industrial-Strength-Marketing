@@ -77,7 +77,6 @@ collections:
             name: "contact_form"
             widget: "object"
             collapsed: true
-            required: false
             fields:
               - {label: "First Name", name: "first_name", widget: "string", required: false}
               - {label: "Last Name", name: "last_name", widget: "string", required: false}
@@ -98,13 +97,12 @@ collections:
             name: "marketing_section"
             widget: "object"
             collapsed: true
-            required: false
             fields:
               - label: "Content Items"
                 name: "content_items"
                 widget: "list"
                 fields:
-                  - {label: "Image", name: "image", widget: "image", required: true}
+                  - {label: "Image", name: "image", widget: "image", required: false}
                   - label: "Content Type"
                     name: "type"
                     widget: "select"
@@ -112,10 +110,10 @@ collections:
                       - "Article"
                       - "Resource Library"
                     default: "article"
-                    required: true
-                  - {label: "Alt Text", name: "alt_text", widget: "string", required: true}
-                  - {label: "Link URL1", name: "url1", widget: "string", required: true}
-                  - {label: "Link URL2", name: "url2", widget: "string", required: true}
+                    required: false
+                  - {label: "Alt Text", name: "alt_text", widget: "string", required: false}
+                  - {label: "Link URL1", name: "url1", widget: "string", required: false}
+                  - {label: "Link URL2", name: "url2", widget: "string", required: false}
                   # - {label: "Button Text", name: "button_text", widget: "string", required: true}
       - label: "Clients Page"
         name: "clients"
