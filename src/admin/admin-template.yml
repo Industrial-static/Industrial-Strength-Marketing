@@ -98,6 +98,7 @@ collections:
             name: "marketing_section"
             widget: "object"
             collapsed: true
+            required: false
             fields:
               - label: "Content Items"
                 name: "content_items"
