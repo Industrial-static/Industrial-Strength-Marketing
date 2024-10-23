@@ -1,20 +1,7 @@
 ---
-layout: contact.njk
-title: Contact Us......
-description: >-
-  Please use the form on this page for any general inquiries about projects, our
-  work, or just to say "hi." If you are looking for employment, please visit our
-  Careers page to learn more about working with us, and a list of open
-  positions.
-
-
-  Prefer immediate human interaction?
-url: https://industrialsitepannel.netlify.app/about/careers/
 contact_number: Call Us 1-866-529-8908
-seo:
-  page_title: "Contact Us: Award-Winning Industrial Marketing Agency"
-  description: Please use the form on this page for any general inquiries about
-    projects, our work, or just to say "hi."
+layout: contact.njk
+url: https://industrialsitepannel.netlify.app/about/careers/
 contact_detail:
   title: BNA → SAT → SFO
   description: With our main office located in Nashville and boots on the ground
@@ -22,6 +9,22 @@ contact_detail:
     can meet you wherever you are.
   image: /img/uploads/nashvegas.jpg
 show_in_menu: "false"
+title: Contact Us......
+description: >-
+  <!--StartFragment-->
+
+
+  Please use the form on this page for any general inquiries about projects, our work, or just to say "hi." If you are looking for employment, please visit our [Careers page](https://industrialstrengthmarketing.com/about/careers/) to learn more about working with us, and a list of open positions. Prefer immediate human interaction?
+
+
+  ### **Call Us 1-866-529-8908**
+
+
+  <!--EndFragment-->
+seo:
+  page_title: "Contact Us: Award-Winning Industrial Marketing Agency"
+  description: Please use the form on this page for any general inquiries about
+    projects, our work, or just to say "hi."
 ---
 # Contact Us
 Please use the form on this page for any general inquiries about projects, our work, or just to say "hi." If you are looking for employment, please visit our <a href="/about/careers/">Careers page</a> to learn more about working with us, and a list of open positions.</p>
