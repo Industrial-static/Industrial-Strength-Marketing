@@ -6,7 +6,6 @@
             <h1>{{ title }}</h1>
             <p>{{ description }}</p>
             <h3>{{ contact_number }}</h3>
-            {{ contents | safe }}
         </div>
         <div class="col-sm-6  col-md-5 col-md-offset-1 form-col">
             <div class="form-container">
@@ -28,7 +27,6 @@
         <div class="col-md-4 col-md-offset-1"><br>
             <span class="contact-areas">{{contact_detail.title}}</span><br>
             <p>{{ contact_detail.description }}</p>
-            With our main office located in Nashville and boots on the ground in both San Antonio and San Francisco, we work in all parts of the U.S. and can meet you wherever you&nbsp;are.<br><br>
         </div>
         <div class="col-md-7 text-center">
             {% if contact_detail.image %}
