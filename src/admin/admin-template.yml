@@ -77,6 +77,7 @@ collections:
             name: "contact_form"
             widget: "object"
             collapsed: true
+            required: false
             fields:
               - {label: "First Name", name: "first_name", widget: "string", required: true}
               - {label: "Last Name", name: "last_name", widget: "string", required: true}
