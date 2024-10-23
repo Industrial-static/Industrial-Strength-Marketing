@@ -1,6 +1,7 @@
 - label: "Work Case Studies"
   name: "case_studies"
   widget: "list"
+  collapsed: true
   fields:
     - {label: "Heading", name: "heading", widget: "string", required: true}
     - {label: "Description", name: "description", widget: "text", required: true}
