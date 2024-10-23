@@ -4,12 +4,12 @@
     {% for item in work %}
     <div class="row case-study">
         <div class="col-sm-7 col-sm-push-5">
-            <div class="img-container"><a href="/{{item.path}}"><img src="{{ item.overviewimg}}" width="736" class="img-responsive img-case-study-overview" alt="{{ (item.overviewimg_alt | default("")) | e}}"></a></div>
+            <div class="img-container">ddddddd<a href="{{item.path}}"><img src="{{ item.overviewimg}}" width="736" class="img-responsive img-case-study-overview" alt="{{ (item.overviewimg_alt | default("")) | e}}"></a></div>
         </div>
         <div class="col-sm-5 col-sm-pull-7">
-            <h3 class="case-study-overview-title"><a href="/{{item.path}}">{{ item.title}}</a></h3>
+            <h3 class="case-study-overview-title"><a href="{{item.path}}">{{ item.title}}</a></h3>
             <p class="case-study-summary">{{ item.summary}}</p>
-            <a href="/{{item.path}}" class="link-learn-more">Read Case Study</a>
+            <a href="{{item.path}}" class="link-learn-more">Read Case Study</a>
         </div>
     </div>
     {% endfor %}
