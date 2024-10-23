@@ -38,6 +38,7 @@ collections:
       - label: "Work Page"
         name: work
         file: "src/content/work/index.md"
+        create: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "work-index.njk"}
           - {label: "Title", name: "title", widget: "string"}
