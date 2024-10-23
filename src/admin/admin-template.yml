@@ -39,7 +39,7 @@ collections:
         name: work
         file: "src/content/work/index.md"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "about.njk"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "work-index.njk"}
           - {label: "Title", name: "title", widget: "string"}
           - label: SEO
             name: "seo"
