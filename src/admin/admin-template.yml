@@ -53,7 +53,6 @@ collections:
               - {label: "No index, no follow", name: "noindex", widget: "boolean", required: false}
               - {label: "Canonical link", name: "canonical", widget: "string", required: false, hint: "Not required. One will be generated if not filled in."}
           <!-- @include-static partials/jumbotron.yml -->
-          - {label: "Body", name: "body", widget: "markdown"}
           <!-- @include-static partials/case_studies.yml -->
       - label: "Contact Us"
         name: contact_us
