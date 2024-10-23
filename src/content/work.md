@@ -18,7 +18,7 @@ case_studies:
       the leading North American, industrial clean air solutions provider.
     url: https://industrialstrengthmarketing.com/work/duroair-technologies/
     image: /img/uploads/duroair-overview.jpg
-    image_alt: None
+    image_alt: ""
   - heading: Southern Metal Fabricators
     description: L﻿earn how industrial website development helped transform Southern
       Metal Fabricators into an online presence for successful lead generation.
