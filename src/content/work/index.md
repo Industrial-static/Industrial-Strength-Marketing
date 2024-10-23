@@ -4,14 +4,14 @@ seo:
   page_title: Work
 jumbotron:
   headline: Our Work Page
-  img: /img/uploads/duroair-overview.jpg
+  img: /img/uploads/work-hero.webp
   tagline: Creative approach to market a manufacturing company
 case_studies:
   - heading: Duroair Technologies
     description: Learn how Duroair's new industrial website design and strategic,
       integrated approach helped achieve 200% year-over-year revenue growth for
       the leading North American,
-    image: /img/uploads/duroair-overview.jpg
+    image: /img/uploads/smf-jumbo.webp
     url: https://industrialsitepannel.netlify.app/work/duroair-technologies/
     image_alt: No Image Found!
 ---
