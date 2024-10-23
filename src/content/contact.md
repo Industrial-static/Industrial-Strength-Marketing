@@ -1,15 +1,5 @@
 ---
-contact_number: Call Us 1-866-529-8908
 layout: contact.njk
-url: https://industrialsitepannel.netlify.app/about/careers/
-contact_detail:
-  title: BNA → SAT → SFO
-  description: With our main office located in Nashville and boots on the ground
-    in both San Antonio and San Francisco, we work in all parts of the U.S. and
-    can meet you wherever you are.
-  image: /img/uploads/nashvegas.jpg
-show_in_menu: "false"
-title: Contact Us......
 description: >-
   <!--StartFragment-->
 
@@ -20,10 +10,22 @@ description: >-
   Prefer immediate human interaction?
 
 
+  <!--EndFragment-->
+contact_number: |-
+  <!--StartFragment-->
+
   **Call Us 1-866-529-8908**
 
-
   <!--EndFragment-->
+url: https://industrialsitepannel.netlify.app/about/careers/
+contact_detail:
+  title: BNA → SAT → SFO
+  description: With our main office located in Nashville and boots on the ground
+    in both San Antonio and San Francisco, we work in all parts of the U.S. and
+    can meet you wherever you are.
+  image: /img/uploads/nashvegas.jpg
+show_in_menu: "false"
+title: Contact Us......
 seo:
   page_title: "Contact Us: Award-Winning Industrial Marketing Agency"
   description: Please use the form on this page for any general inquiries about
