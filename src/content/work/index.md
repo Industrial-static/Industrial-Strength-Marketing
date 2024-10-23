@@ -1,5 +1,5 @@
 ---
-title: Work
+title: "Work "
 seo:
   page_title: Work
 jumbotron:
