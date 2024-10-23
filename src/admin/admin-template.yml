@@ -59,8 +59,8 @@ collections:
         file: "src/content/contact.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "contact.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Page Description", name: "description", widget: "string", required: false}
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Page Description", name: "description", widget: "text", required: true}
           - {label: "URL", name: "url", widget: "string"}
           - {label: "Contact Number", name: "contact_number", widget: "string"}
           - label: SEO
