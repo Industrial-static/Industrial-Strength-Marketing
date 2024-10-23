@@ -60,7 +60,7 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "contact.njk"}
           - {label: "Title", name: "title", widget: "string", required: true}
-          - {label: "Page Description", name: "description", widget: "text", required: true}
+          - {label: "Page Description", name: "description", widget: "markdown", required: true}
           - {label: "URL", name: "url", widget: "string"}
           - {label: "Contact Number", name: "contact_number", widget: "string"}
           - label: SEO
@@ -73,18 +73,6 @@ collections:
               - {label: "Page Description", name: "description", widget: "string", required: false}
               - {label: "No index, no follow", name: "noindex", widget: "boolean", required: false}
               - {label: "Canonical link", name: "canonical", widget: "string", required: false, hint: "Not required. One will be generated if not filled in."}
-          - label: "Contact Form"
-            name: "contact_form"
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "First Name", name: "first_name", widget: "string", required: false}
-              - {label: "Last Name", name: "last_name", widget: "string", required: false}
-              - {label: "Company Email", name: "company_email", widget: "string", required: false}
-              - {label: "Company Name", name: "company_name", widget: "string", required: false}
-              - {label: "Phone Number", name: "phone_number", widget: "string", required: false}
-              - {label: "Message/Comments", name: "message", widget: "text", required: false}
-              - {label: "Send Button", name: "send_button", widget: "string", default: "Send", required: false}
           - label: "Contact Detail"
             name: "contact_detail"
             widget: "object"
