@@ -11,7 +11,7 @@ description: >-
 contact_number: |-
   <!--StartFragment-->
 
-  **Call Us 1-866-529-8908**
+  **`<h3>Call Us 1-866-529-8908</>`**
 
   <!--EndFragment-->
 url: https://industrialsitepannel.netlify.app/about/careers/
