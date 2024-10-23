@@ -79,12 +79,12 @@ collections:
             collapsed: true
             required: false
             fields:
-              - {label: "First Name", name: "first_name", widget: "string", required: true}
-              - {label: "Last Name", name: "last_name", widget: "string", required: true}
-              - {label: "Company Email", name: "company_email", widget: "string", required: true}
-              - {label: "Company Name", name: "company_name", widget: "string", required: true}
-              - {label: "Phone Number", name: "phone_number", widget: "string", required: true}
-              - {label: "Message/Comments", name: "message", widget: "text", required: true}
+              - {label: "First Name", name: "first_name", widget: "string", required: false}
+              - {label: "Last Name", name: "last_name", widget: "string", required: false}
+              - {label: "Company Email", name: "company_email", widget: "string", required: false}
+              - {label: "Company Name", name: "company_name", widget: "string", required: false}
+              - {label: "Phone Number", name: "phone_number", widget: "string", required: false}
+              - {label: "Message/Comments", name: "message", widget: "text", required: false}
               - {label: "Send Button", name: "send_button", widget: "string", default: "Send"}
           - label: "Contact Detail"
             name: "contact_detail"
