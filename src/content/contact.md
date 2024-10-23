@@ -8,12 +8,7 @@ description: >-
 
 
   <!--EndFragment-->
-contact_number: |-
-  <!--StartFragment-->
-
-  **`<h3>Call Us 1-866-529-8908</>`**
-
-  <!--EndFragment-->
+contact_number: Call Us 1-866-529-8908
 url: https://industrialsitepannel.netlify.app/about/careers/
 contact_detail:
   title: BNA → SAT → SFO
