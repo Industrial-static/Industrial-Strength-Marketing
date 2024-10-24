@@ -1,13 +1,5 @@
 {% extends "layout.njk" %}
 {% block body %}
-const nunjucks = require('nunjucks');
-const env = new nunjucks.Environment();
-
-// Add a custom filter for splitting strings
-env.addFilter('split', function(str, separator) {
-  return str.split(separator);
-});
-
 <div class="container-fluid {{ 'padding-top' if headerCssClass}}">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 {{ path | cssClassify}} main-copy">
@@ -18,25 +10,8 @@ env.addFilter('split', function(str, separator) {
             <!-- Loop through policies and render with HTML-safe content -->
             {% for policy in policies %}
                 <h3>{{ policy.page_title }}</h3>
-                
-                <!-- Split the page description by double line breaks (assuming it's already HTML-safe) -->
-                {% set paragraphs = policy.page_description | replace('\n\n', '|split|') | split('|split|') %}
-                
-                {% for paragraph in paragraphs %}
-                    {% set is_bullet_point = paragraph | trim | startsWith('* ') or paragraph | trim | startsWith('- ') %}
-                    
-                    {% if is_bullet_point %}
-                        <!-- If the paragraph starts with a bullet point, render it as a list -->
-                        <ul>
-                            {% set lines = paragraph | split('\n') %}
-                            {% for line in lines %}
-                                <li>{{ line | safe }}</li>
-                            {% endfor %}
-                        </ul>
-                    {% else %}
-                        <!-- Otherwise, treat it as a normal paragraph -->
-                        <p>{{ paragraph | safe }}</p>
-                    {% endif %}
+                {% for paragraph in policy.page_description.split('\n\n') %}
+                    <p>{{ paragraph | safe }}</p> <!-- This wraps each paragraph in a <p> tag -->
                 {% endfor %}
             {% endfor %}
         </div>
