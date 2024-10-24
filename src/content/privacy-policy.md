@@ -1,6 +1,6 @@
 ---
 layout: default.njk
-title: INDUSTRIAL’S Website
+title: INDUSTRIAL’S Website Privacy Policy
 seo:
   page_title: Industrial Strength Marketing Agency Privacy Policy
   description: Industrial Strength Marketing is committed to protecting the
@@ -21,6 +21,83 @@ policies:
 
 
       PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE TREAT YOUR PERSONAL INFORMATION AND THE RELATED CHOICES AND RIGHTS AVAILABLE TO YOU. IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THIS POLICY, YOU SHOULD NOT ACCESS OR USE THE WEBSITE.
+  - page_title: Our Role in Protecting the Privacy and Security of Your Personal
+      Information
+    page_description: >-
+      <!--StartFragment-->
+
+
+      Industrial Strength Marketing is responsible for implementing applicable data protection principles and safeguarding the personal information that you provide to us through our Website.
+
+
+      If you are a user in in the European Union (the “EU”) or European Economic Area (“EEA”), Industrial Strength Marketing will be the controller of the personal information we collect through our Website from you for purposes of the E.U. General Data Protection Regulation, 2016/679 (the “GDPR”).
+
+
+      <!--EndFragment-->
+  - page_title: What Personal Information Do We Collect and Why
+    page_description: >-
+      <!--StartFragment-->
+
+
+      We may collect and processing the following personal information from you for the following purposes:
+
+
+      <!--EndFragment-->
+  - page_title: How Will We Use Your Personal Information?
+    page_description: >-
+      <!--StartFragment-->
+
+
+      In addition to the uses described above, Industrial Strength Marketing uses the personal information collected in an effort to improve your experience on the Website, to provide services to you, and to communicate with you about the information you have requested. Industrial Strength Marketing may also use personal information to help target specific offers to you and to help Industrial Strength Marketing develop and improve our Website and services. Additionally, Industrial Strength Marketing may use your personal information in the following ways:
+
+
+      To provide you with services you have requested and to manage our relationship with you, including administering your account, processing payments, accounting, auditing, billing and collection, and taking other steps necessary to the performance of our business relationship with you;
+
+
+      * To present and improve Website contact and functionality;
+
+      * To determine user interests, needs and preferences;
+
+      * To provide notice of changes to our Website or the services we offer or provide through it;
+
+      * To conduct research and analysis;
+
+      * To develop new products and services;
+
+      * To manage and maintain the security of our Website and services;
+
+      * To market our services to you. We will only provide you with marketing-related information after you have, where legally required to do so, opted in to receive those communications and having provided you with the opportunity to opt-out of such communications at any time.
+
+      * For comply with our legal and compliance obligations, including maintaining records, performing compliance audits, etc.
+
+      * For insurance purposes;
+
+      * To exercise and defend our legal rights, or to comply with court orders;
+
+      * For any other purpose related to and/or ancillary to any of the purposes and uses described in this Policy for which your personal information was provided to us;
+
+      * In any other way we may describe when you provide the information; and
+
+      * For any other purpose to which you have consented or for which we have a legitimate basis under the law.
+
+      * We may process your personal information in connection with any of the purposes and uses set out in this Policy on one or more of the following legal grounds: because it is necessary to perform the services you have requested, to comply with your instructions or requests, or other contractual obligations between you and Industrial Strength Marketing;
+
+      * to comply with our legal obligations as well as to keep records of our compliance processes;
+
+      * because our legitimate interests, or those of a third party recipient of your personal information, makes the processing necessary, provided those interests are not overridden by your interests or fundamental rights and freedoms;
+
+      * because you have chosen to publish or display your personal information on a public area of the Website, such as blog or comment area;
+
+      * because it is necessary to protect your vital interests;
+
+      * because it is necessary in the public interest; or
+
+      * because you have expressly given us your consent to process your personal information in a particular manner.
+
+      * We do not use your personal information for making any automated decisions affecting or creating profiles other than as described above.
+
+
+      <!--EndFragment-->
 ---
 
 ## INDUSTRIAL’S Website Privacy Policy
