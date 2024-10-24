@@ -3,11 +3,14 @@
 <div class="container-fluid {{ 'padding-top' if headerCssClass}}">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 {{ path | cssClassify}} main-copy">
+            <!-- Title and Last Updated Date -->
             <h1>{{title}}</h1>
             <p><i>{{last_updated_date}}</i></p>
+
+            <!-- Loop through policies and render with HTML-safe content -->
             {% for policy in policies %}
                 <h3>{{policy.page_title}}</h3>
-                <p>{{policy.page_description | safe}}</p>
+                <p>{{policy.page_description | safe}}</p> <!-- The safe filter allows HTML and line breaks -->
             {% endfor %}
         </div>
     </div>
