@@ -1,6 +1,6 @@
 ---
 layout: default.njk
-title: <strong>INDUSTRIAL’S Website</strong>
+title: INDUSTRIAL’S Website
 seo:
   page_title: Industrial Strength Marketing Agency Privacy Policy
   description: Industrial Strength Marketing is committed to protecting the
