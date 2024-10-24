@@ -11,7 +11,7 @@
             {% for policy in policies %}
                 <h3>{{ policy.page_title }}</h3>
                 {% for paragraph in policy.page_description.split('\n\n') %}
-                    {% if paragraph.startswith('* ') or paragraph.startswith('- ') %}
+                    {% if paragraph is string and (paragraph.startswith('* ') or paragraph.startswith('- ')) %}
                         <!-- If the paragraph starts with a bullet point, render it as a list -->
                         <ul>
                             {% for line in paragraph.split('\n') %}
