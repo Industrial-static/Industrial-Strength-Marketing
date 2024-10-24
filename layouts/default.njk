@@ -3,10 +3,10 @@
 <div class="container-fluid {{ 'padding-top' if headerCssClass}}">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 {{ path | cssClassify}} main-copy">
-            <h1><strong>{{title}}</strong></h1>
+            <h1>{{title}}</h1>
             <p><i>{{last_updated_date}}</i></p>
             {% for policy in policies %}
-                <h2>{{policy.page_title}}</h2>
+                <h3>{{policy.page_title}}</h3>
                 <p>{{policy.page_description}}</p>
             {% endfor %}
         </div>
