@@ -10,11 +10,18 @@
             <!-- Loop through policies and render with HTML-safe content -->
             {% for policy in policies %}
                 <h3>{{ policy.page_title }}</h3>
-                {% for paragraph in policy.page_description.split('\n\n') %}
-                    {% if paragraph is string and (paragraph[0:2] == '* ' or paragraph[0:2] == '- ') %}
+                
+                <!-- Split the page description by double line breaks (assuming it's already HTML-safe) -->
+                {% set paragraphs = policy.page_description | replace('\n\n', '|split|') | split('|split|') %}
+                
+                {% for paragraph in paragraphs %}
+                    {% set is_bullet_point = paragraph | trim | startsWith('* ') or paragraph | trim | startsWith('- ') %}
+                    
+                    {% if is_bullet_point %}
                         <!-- If the paragraph starts with a bullet point, render it as a list -->
                         <ul>
-                            {% for line in paragraph.split('\n') %}
+                            {% set lines = paragraph | split('\n') %}
+                            {% for line in lines %}
                                 <li>{{ line | safe }}</li>
                             {% endfor %}
                         </ul>
