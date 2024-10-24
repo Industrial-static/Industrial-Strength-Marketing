@@ -22,9 +22,9 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Privacy-Policy Page"
         name: "privacy_policy"
-        file: "src/content/privacy_policy/index.md"
+        file: "src/content/privacy-policy.md"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "about.njk"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
           - {label: "Title", name: "title", widget: "string", default: "Industrial's Website Privacy Policy"}
           - {label: "Last Updated Date", name: "last_updated_date", widget: "string"}
           - label: "Policies"
