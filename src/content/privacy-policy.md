@@ -57,65 +57,67 @@ policies:
       To provide you with services you have requested and to manage our relationship with you, including administering your account, processing payments, accounting, auditing, billing and collection, and taking other steps necessary to the performance of our business relationship with you;
 
 
-      * To present and improve Website contact and functionality;
-
-      * To determine user interests, needs and preferences;
-
-      * To provide notice of changes to our Website or the services we offer or provide through it;
+      \- To present and improve Website contact and functionality;
 
 
-      To conduct research and analysis;
+      \- To determine user interests, needs and preferences;
 
 
-      To develop new products and services;
+      \- To provide notice of changes to our Website or the services we offer or provide through it;
 
 
-      To manage and maintain the security of our Website and services;
+      \- To conduct research and analysis;
 
 
-      To market our services to you. We will only provide you with marketing-related information after you have, where legally required to do so, opted in to receive those communications and having provided you with the opportunity to opt-out of such communications at any time.
+      \- To develop new products and services;
 
 
-      For comply with our legal and compliance obligations, including maintaining records, performing compliance audits, etc.
+      \- To manage and maintain the security of our Website and services;
 
 
-      For insurance purposes;
+      \- To market our services to you. We will only provide you with marketing-related information after you have, where legally required to do so, opted in to receive those communications and having provided you with the opportunity to opt-out of such communications at any time.
 
 
-      To exercise and defend our legal rights, or to comply with court orders;
+      \- For comply with our legal and compliance obligations, including maintaining records,    performing compliance audits, etc.
 
 
-      For any other purpose related to and/or ancillary to any of the purposes and uses described in this Policy for which your personal information was provided to us;
+      \- For insurance purposes;
 
 
-      In any other way we may describe when you provide the information; and
+      \- To exercise and defend our legal rights, or to comply with court orders;
 
 
-      For any other purpose to which you have consented or for which we have a legitimate basis under the law.
+      \- For any other purpose related to and/or ancillary to any of the purposes and uses described in this Policy for which your personal information was provided to us;
 
 
-      We may process your personal information in connection with any of the purposes and uses set out in this Policy on one or more of the following legal grounds: because it is necessary to perform the services you have requested, to comply with your instructions or requests, or other contractual obligations between you and Industrial Strength Marketing;
+      \- In any other way we may describe when you provide the information; and
 
 
-      to comply with our legal obligations as well as to keep records of our compliance processes;
+      \- For any other purpose to which you have consented or for which we have a legitimate basis under the law.
 
 
-      because our legitimate interests, or those of a third party recipient of your personal information, makes the processing necessary, provided those interests are not overridden by your interests or fundamental rights and freedoms;
+      \- We may process your personal information in connection with any of the purposes and uses set out in this Policy on one or more of the following legal grounds: because it is necessary to perform the services you have requested, to comply with your instructions or requests, or other contractual obligations between you and Industrial Strength Marketing;
 
 
-      because you have chosen to publish or display your personal information on a public area of the Website, such as blog or comment area;
+      \- to comply with our legal obligations as well as to keep records of our compliance processes;
 
 
-      because it is necessary to protect your vital interests;
+      \- because our legitimate interests, or those of a third party recipient of your personal information, makes the processing necessary, provided those interests are not overridden by your interests or fundamental rights and freedoms;
 
 
-      because it is necessary in the public interest; or
+      \- because you have chosen to publish or display your personal information on a public area of the Website, such as blog or comment area;
 
 
-      because you have expressly given us your consent to process your personal information in a particular manner.
+      \- because it is necessary to protect your vital interests;
 
 
-      We do not use your personal information for making any automated decisions affecting or creating profiles other than as described above.
+      \- because it is necessary in the public interest; or
+
+
+      \- because you have expressly given us your consent to process your personal information in a particular manner.
+
+
+      \- We do not use your personal information for making any automated decisions affecting or creating profiles other than as described above.
 
 
       <!--EndFragment-->
