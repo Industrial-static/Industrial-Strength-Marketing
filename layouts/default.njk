@@ -7,7 +7,7 @@
             <p><i>{{last_updated_date}}</i></p>
             {% for policy in policies %}
                 <h3>{{policy.page_title}}</h3>
-                <p>{{policy.page_description}}</p>
+                <p>{{policy.page_description | safe}}</p>
             {% endfor %}
         </div>
     </div>
