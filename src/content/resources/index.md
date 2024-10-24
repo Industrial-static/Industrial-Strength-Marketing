@@ -1,8 +1,8 @@
 ---
 hero:
   title: Resources
-  description: "We believe you can master the top challenges and trends in
-    industrial marketing. "
+  description: We believe you can master the top challenges and trends in
+    industrial marketing....
   image: /img/uploads/resources-hero.jpg
 resource_list:
   - headline: The Industrial Trade Show Marketing Playbook
