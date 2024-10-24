@@ -11,19 +11,16 @@ last_updated_date: Updated May 25, 2018
 policies:
   - page_title: Overview
     page_description: >-
-      <!--StartFragment-->
+      Industrial Strength Marketing is committed to protecting the privacy and
+      security of the personal information we receive or collect from you. We
+      also believe in transparency and are committed to informing you about how
+      we treat your personal information.
 
 
-      Industrial Strength Marketing is committed to protecting the privacy and security of the personal information we receive or collect from you. We also believe in transparency and are committed to informing you about how we treat your personal information.
-
-
-      Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, [](https://industrialstrengthmarketing.com/) ([the “Website”]([https://industrialstrengthmarketing.com](https://industrialstrengthmarketing.com/))). The Policy also describes certain rights and options that you have with regard to your personal information.
+      Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, <a href="[https://industrialstrengthmarketing.com](https://industrialstrengthmarketing.com/)">("The Website")</a> The Policy also describes certain rights and options that you have with regard to your personal information.
 
 
       PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE TREAT YOUR PERSONAL INFORMATION AND THE RELATED CHOICES AND RIGHTS AVAILABLE TO YOU. IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THIS POLICY, YOU SHOULD NOT ACCESS OR USE THE WEBSITE.
-
-
-      <!--EndFragment-->
 ---
 
 ## INDUSTRIAL’S Website Privacy Policy
