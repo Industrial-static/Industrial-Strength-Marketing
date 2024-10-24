@@ -17,7 +17,28 @@ policies:
       Industrial Strength Marketing is committed to protecting the privacy and security of the personal information we receive or collect from you. We also believe in transparency and are committed to informing you about how we treat your personal information.
 
 
-      Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, [https://industrialstrengthmarketing.com](https://industrialstrengthmarketing.com/) (the “Website”). The Policy also describes certain rights and options that you have with regard to your personal information.
+      Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, <a href="https://industrialstrengthmarketing.com">("The Website")</a> The Policy also describes certain rights and options that you have with regard to your personal information.
+
+
+      {% extends "layout.njk" %}
+
+      {% block body %}
+
+
+      <div class="container-fluid {{ 'padding-top' if headerCssClass}}">
+          <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 {{ path | cssClassify}} main-copy">
+                  <h1>{{title}}</h1>
+                  <p><i>{{last_updated_date}}</i></p>
+                  {% for policy in policies %}
+                      <h3>{{policy.page_title}}</h3>
+                      <p>{{policy.page_description | safe}}</p>
+                  {% endfor %}
+              </div>
+          </div>
+      </div>
+
+      {% endblock %}
 
 
       PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE TREAT YOUR PERSONAL INFORMATION AND THE RELATED CHOICES AND RIGHTS AVAILABLE TO YOU. IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THIS POLICY, YOU SHOULD NOT ACCESS OR USE THE WEBSITE.
