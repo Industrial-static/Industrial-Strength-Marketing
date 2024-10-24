@@ -25,7 +25,7 @@ collections:
         file: "src/content/privacy-policy.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
-          - {label: "Title", name: "title", widget: "string", default: "Industrial's Website Privacy Policy"}
+          - {label: "Title", name: "title", widget: "markdown", default: "Industrial's Website Privacy Policy"}
           - {label: "Last Updated Date", name: "last_updated_date", widget: "string"}
           - label: "Policies"
             name: "policies"
