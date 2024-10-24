@@ -11,17 +11,7 @@
             {% for policy in policies %}
                 <h3>{{ policy.page_title }}</h3>
                 {% for paragraph in policy.page_description.split('\n\n') %}
-                    {% if paragraph.match(/^\* |^\- /) %}
-                        <!-- If the paragraph starts with a bullet point, render it as a list -->
-                        <ul>
-                            {% for line in paragraph.split('\n') %}
-                                <li>{{ line | safe }}</li>
-                            {% endfor %}
-                        </ul>
-                    {% else %}
-                        <!-- Otherwise, treat it as a normal paragraph -->
-                        <p>{{ paragraph | safe }}</p>
-                    {% endif %}
+                    <p>{{ paragraph | safe }}</p> <!-- This wraps each paragraph in a <p> tag -->
                 {% endfor %}
             {% endfor %}
         </div>
