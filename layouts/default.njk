@@ -5,8 +5,10 @@
         <div class="col-sm-8 col-sm-offset-2 {{ path | cssClassify}} main-copy">
             <h1><strong>{{title}}</strong></h1>
             <p><i>{{last_updated_date}}</i></p>
-            <h2>{{policies.page_title}}
-            <h2>{{policies.page_description}}
+            {% for policy in policies %}
+                <h2>{{policy.page_title}}</h2>
+                <p>{{policy.page_description}}</p>
+            {% endfor %}
         </div>
     </div>
 </div>
