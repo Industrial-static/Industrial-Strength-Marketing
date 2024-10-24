@@ -54,7 +54,8 @@ policies:
       To provide you with services you have requested and to manage our relationship with you, including administering your account, processing payments, accounting, auditing, billing and collection, and taking other steps necessary to the performance of our business relationship with you;
 
 
-      * To present and improve Website contact and functionality;
+      \- To present and improve Website contact and functionality;
+
 
       * To determine user interests, needs and preferences;
 
