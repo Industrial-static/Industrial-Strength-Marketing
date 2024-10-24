@@ -34,7 +34,7 @@ collections:
             required: false
             fields:
               - {label: "Page Title", name: "page_title", widget: "string"}
-              - {label: "Page Description", name: "page_description", widget: "markdown"}
+              - {label: "Page Description", name: "page_description", widget: "text"}
       - label: "Work Page"
         name: work
         file: "src/content/work.md"
