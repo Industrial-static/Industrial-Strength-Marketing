@@ -77,31 +77,9 @@ collections:
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Title", name: "title", widget: "markdown", required: true}
               - {label: "Image", name: "image", widget: "image", required: false}
               - {label: "Description", name: "description", widget: "text", required: true}
-          - label: "Marketing Section"
-            name: "marketing_section"
-            widget: "object"
-            collapsed: true
-            fields:
-              - label: "Content Items"
-                name: "content_items"
-                widget: "list"
-                fields:
-                  - {label: "Image", name: "image", widget: "image", required: false}
-                  - label: "Content Type"
-                    name: "type"
-                    widget: "select"
-                    options:
-                      - "Article"
-                      - "Resource Library"
-                    default: "article"
-                    required: false
-                  - {label: "Alt Text", name: "alt_text", widget: "string", required: false}
-                  - {label: "Link URL1", name: "url1", widget: "string", required: false}
-                  - {label: "Link URL2", name: "url2", widget: "string", required: false}
-                  # - {label: "Button Text", name: "button_text", widget: "string", required: true}
       - label: "Clients Page"
         name: "clients"
         file: "src/content/clients/index.md"
