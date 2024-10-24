@@ -8,7 +8,7 @@
                 {% if item.active %}
                 <div class="resource">
                     <a target="_blank" href="{{ item.url }}" data-ga-event="Resources" data-ga-action="Click" data-ga-label="{{ item.headline }}">
-                        <img src="{{ item.img }}" alt="" class="img-responsive" />
+                        <img src="{{ item.img }}" alt="{{ item.headline }}" class="img-responsive" />
                     </a>
                     <div class="content-title upper">
                         <a target="_blank" href="{{ item.url }}">{{ item.headline }}</a>
