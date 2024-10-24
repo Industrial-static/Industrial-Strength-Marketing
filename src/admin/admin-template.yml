@@ -104,6 +104,7 @@ collections:
       - label: "Resources Page"
         name: "resources"
         file: "src/content/resources/index.md"
+        create: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
           - label: "Hero"
@@ -119,9 +120,12 @@ collections:
             widget: list
             collapsed: true
             fields:
-              - {label: "Image", name: "image", widget: "image", required: true}
+              - {label: "Headline", name: "headline", widget: "string", required: true}
+              - {label: "Copy Text", name: "copy", widget: "text", required: true}
+              - {label: "Image", name: "img", widget: "image", required: true}
               - {label: "URL", name: "url", widget: "string", required: true}
-              - {label: "Description", name: "description", widget: "text", required: true}
+              - {label: "Order", name: "order", widget: "number", required: false, value_type: "int"}
+              - {label: "Active", name: "active", widget: "select", required: true, options: [{label: "Inactive", value: 0}, {label: "Active", value: 1}]}
           - {label: "Contact Message", name: "contact", widget: "string", required: true}
           - {label: "Contact URL", name: "contact_url", widget: "string", required: true}
       - label: "Free Consultation"
