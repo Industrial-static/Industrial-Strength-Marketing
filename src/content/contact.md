@@ -13,7 +13,7 @@ contact_number: |-
   <!--EndFragment-->
 url: https://industrialsitepannel.netlify.app/about/careers/
 contact_detail:
-  title: BNA → SAT → SFO
+  title: <strong class="accent">BNA → SAT → SFO</strong>
   description: With our main office located in Nashville and boots on the ground
     in both San Antonio and San Francisco, we work in all parts of the U.S. and
     can meet you wherever you are.
