@@ -107,14 +107,7 @@ collections:
         create: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "resources.njk"}
-          - label: "Hero"
-            name: "hero"
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "Title", name: "title", widget: "string", required: true}
-              - {label: "Description", name: "description", widget: "text", required: true}
-              - {label: "Image", name: "image", widget: "image", required: true}
+          <!-- @include-static partials/jumbotron.yml -->
           - label: "Resource List"
             name: resource_list
             widget: list
