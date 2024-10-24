@@ -10,7 +10,9 @@
             <!-- Loop through policies and render with HTML-safe content -->
             {% for policy in policies %}
                 <h3>{{policy.page_title}}</h3>
-                <p>{{policy.page_description | safe}}</p> <!-- The safe filter allows HTML and line breaks -->
+                {% for paragraph in policy.page_description.split('\n\n') %}
+                    <p>{{ paragraph | safe }}</p> <!-- This wraps each paragraph in a <p> tag -->
+                {% endfor %}
             {% endfor %}
         </div>
     </div>
