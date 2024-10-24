@@ -5,7 +5,12 @@ description: Please use the form on this page for any general inquiries about
   please visit our <a href="/about/careers/">Careers Page</a> to learn more
   about working with us, and a list of open positions. Prefer immediate human
   interaction?
-contact_number: <strong>Call Us 1-866-529-8908</strong>
+contact_number: |-
+  <!--StartFragment-->
+
+  <strong class="accent">Call Us 1-866-529-8908</strong>
+
+  <!--EndFragment-->
 url: https://industrialsitepannel.netlify.app/about/careers/
 contact_detail:
   title: BNA → SAT → SFO
