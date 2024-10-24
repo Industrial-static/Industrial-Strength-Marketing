@@ -11,7 +11,7 @@
         "test": "testcafe \"chrome:headless\" test/*.test.js",
         "build": "npm run build:js && npm run build:css && npm run build:admin:config && npm run build:metalsmith",
         "build:metalsmith": "npm run build:admin:config && node metalsmith.build.js && npm run build:public",
-        "build:public": "cp -R public/* build/",
+        "build:public": "mkdir -p build && cp -R public/* build/"
         "build:admin:config": "node src/admin/preprocess.js src/admin/admin-template.yml public/admin/config.yml",
         "build:css": "lessc --js src/less/style.less public/css/style.css  --clean-css='--s0 --advanced'  --source-map && cp -R public/css build/",
         "build:js": "uglifyjs  node_modules/@glidejs/glide/dist/glide.min.js node_modules/headroom.js/dist/headroom.min.js src/js/lib/*.js  src/js/*.js  --output public/js/scripts.js && cp -R public/js build/ && npm run build:marketing-roi-calculator:js",
