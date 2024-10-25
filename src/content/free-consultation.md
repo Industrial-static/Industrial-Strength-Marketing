@@ -36,6 +36,7 @@ list_items:
   - item: Develop a brand strategy
   - item: Generate more qualified leads
   - item: Measure marketing ROI
+  - item: Become discoverable on search
 ---
 <h1 class="free-consult-title">Request YOUR<br><span class="accent">Free Marketing Consultation</span></h1>
 Whether you’re simply looking for a class-leading website or want a full-service partner that can take marketing off your plate, we can help. Let’s talk, industrial to industrial.
