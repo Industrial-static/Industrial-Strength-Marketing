@@ -11,7 +11,7 @@ resource_list:
     copy: Get more trade show value before, during, and after your next
       manufacturing live event.
     img: /img/uploads/adobestock_376452528_website.jpg
-    order: 1
+    order: 2
     active: "1"
     url: https://ism.industrialstrengthmarketing.com/en-us/industrial-trade-show-marketing-playbook
   - headline: How to Choose the Right Industrial Marketing Agency
@@ -19,7 +19,7 @@ resource_list:
       marketing partner.
     url: https://industrialstrengthmarketing.com/industrial-marketing-agency-guide/
     img: /img/uploads/agency-selection-guide.png
-    order: 2
+    order: 1
     active: "1"
 show_in_menu: "false"
 title: Resources
