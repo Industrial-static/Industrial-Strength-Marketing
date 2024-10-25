@@ -125,8 +125,8 @@ collections:
         file: "src/content/free-consultation.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "landing-page.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - {label: "Heading", name: "heading", widget: "string"}
+          - {label: "Subheading", name: "subheading", widget: "text"}
           - label: "Introduction"
             name: "introduction"
             widget: "markdown"
