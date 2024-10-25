@@ -122,39 +122,19 @@ collections:
               - {label: "Active", name: "active", widget: "select", required: true, options: [{label: "Inactive", value: "0"}, {label: "Active", value: "1"}]}
       - label: "Free Consultation"
         name: "free_consultation"
-        file: "src/content/free_consultation/index.md"
+        file: "src/content/free-consultation.md"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
-          - label: "Marketing Consultation"
-            name: "marketing_consultation"
-            widget: "object"
-            collapsed: true
+          - {label: "Layout", name: "layout", widget: "hidden", default: "landing-page.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Introduction"
+            name: "introduction"
+            widget: "markdown"
+          - label: "List Items"
+            name: "list_items"
+            widget: "list"
             fields:
-              - {label: "Title", name: "title", widget: "string", required: true}
-              - {label: "Description", name: "description", widget: "text", required: true}
-              - label: "Our Experts Can Help You Section"
-                name: "help_section"
-                widget: "object"
-                collapsed: true
-                fields:
-                  - label: "List of Services"
-                    name: "services_list"
-                    widget: "list"
-                    fields:
-                      - {label: "Service Item", name: "service_item", widget: "string"}
-          - label: "Free Consultation Form"
-            name: "consultation_form"
-            widget: "object"
-            collapsed: true
-            fields:
-              - {label: "First Name", name: "first_name", widget: "string", required: true}
-              - {label: "Last Name", name: "last_name", widget: "string", required: true}
-              - {label: "Company Email", name: "company_email", widget: "string", required: true}
-              - {label: "Company Name", name: "company_name", widget: "string", required: true}
-              - {label: "Website URL", name: "website_url", widget: "string", required: true}
-              - {label: "Phone Number", name: "phone_number", widget: "string", required: true}
-              - {label: "Message/Comments", name: "message", widget: "text", required: true}
-              - {label: "Send Button", name: "send_button", widget: "string", default: "Get Your Consultation Button"}
+              - {label: "Item", name: "item", widget: "string"}
       - label: "Home Page"
         name: home
         file: "src/content/index.md"
