@@ -103,11 +103,12 @@ collections:
               - {label: "Image", name: "img", widget: "image"}
       - label: "Resources Page"
         name: "resources"
-        file: "src/content/resources/index.md"
+        file: "src/content/insights/resources.md"
         create: true
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "resources.njk"}
           <!-- @include-static partials/jumbotron.yml -->
+          <!-- @include-static partials/base-fields.yml -->
           - label: "Resource List"
             name: resource_list
             widget: list
