@@ -104,7 +104,7 @@ collections:
       - label: "Resources Page"
         name: "resources"
         file: "src/content/resources/index.md"
-        create: false
+        create: true
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "resources.njk"}
           <!-- @include-static partials/jumbotron.yml -->
@@ -118,7 +118,7 @@ collections:
               - {label: "Image", name: "img", widget: "image", required: true}
               - {label: "URL", name: "url", widget: "string", required: true}
               - {label: "Order", name: "order", widget: "number", required: false, value_type: "int"}
-              - {label: "Active", name: "active", widget: "select", required: true, options: [{label: "Inactive", value: "false"}, {label: "Active", value: "true"}]}
+              - {label: "Active", name: "active", widget: "select", required: true, options: [{label: "Inactive", value: "0"}, {label: "Active", value: "1"}]}
       - label: "Free Consultation"
         name: "free_consultation"
         file: "src/content/free_consultation/index.md"
