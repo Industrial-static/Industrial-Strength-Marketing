@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="resources-grid">
-                {% for item in resource | sort(attribute='order') %}
+                {% for item in resources | sort(attribute='order') %}
                 {% if item.active %}
                 <div class="resource">
                     <a target="_blank" href="{{ item.url }}" data-ga-event="Resources" data-ga-action="Click" data-ga-label="{{ item.headline }}">
