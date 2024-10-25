@@ -5,7 +5,7 @@
         <div class="col-sm-12">
             <div class="resources-grid">
                 {% for item in resource_list | sort(attribute='order') %}
-                {% if item.active.1 %}
+                {% if item.active == "1" %}
                 <div class="resource">
                     <a target="_blank" href="{{ item.url }}" data-ga-event="Resources" data-ga-action="Click" data-ga-label="{{ item.headline }}">
                         <img src="{{ item.img }}" alt="{{ item.headline }}" class="img-responsive" />
