@@ -9,7 +9,7 @@ seo:
   page_title: Industrial Marketing Resources
 
 jumbotron:
-    headline: 'Resources'
+    headline: 'Resourcesssssssssssssssssssssssssssssss'
     tagline: 'We believe you can master the top challenges and trends in industrial marketing. Here are a few must-reads to help out.'
     img: '/img/resources-hero.jpg'
 nav_sort: 40
