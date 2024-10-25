@@ -104,7 +104,6 @@ collections:
       - label: "Resources Page"
         name: "resources"
         file: "src/content/resources/index.md"
-        create: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "resources.njk"}
           <!-- @include-static partials/jumbotron.yml -->
