@@ -20,7 +20,7 @@ resource_list:
     url: https://industrialstrengthmarketing.com/industrial-marketing-agency-guide/
     img: /img/uploads/agency-selection-guide.png
     order: 1
-    active: "1"
+    active: "0"
 show_in_menu: "false"
 title: Resources
 nav_sort: 40
