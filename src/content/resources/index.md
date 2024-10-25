@@ -15,7 +15,7 @@ resource_list:
 contact: Have an idea for our next marketing guide? Contact us now and let us know!
 contact_url: https://industrialsitepannel.netlify.app/contact/
 jumbotron:
-  headline: Resources....Resources...
+  headline: Resources....Resources...s
   tagline: We believe you can master the top challenges and trends in industrial
     marketing. Here are a few must-reads to help out.
   img: /img/uploads/resources-hero-1-.jpg
