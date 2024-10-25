@@ -1,5 +1,5 @@
 ---
-heading: Request YOUR
+heading: Request
 headerCssClass: nbm
 layout: landing-page.njk
 subheading: Free Marketing Consultation
