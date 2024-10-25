@@ -135,19 +135,19 @@ collections:
             widget: "list"
             fields:
               - {label: "Item", name: "item", widget: "string"}
-      - label: "Social Media"
-        name: "social_media"
-        file: "src/content/social_media/social_media.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "partials/footer.njk"}
-          - {label: 'Website Links', name: 'web_link', widget: 'string'}
-          - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
-          - {label: 'Twitter (X) URL', name: 'x', widget: 'string'}
-          - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string'}
-          - {label: 'Instagram URL', name: 'instagram', widget: 'string'}
-          - {label: 'YouTube URL', name: 'youtube', widget: 'string'}
-          - {label: 'TikTok URL', name: 'tiktok', widget: 'string'}
-          - {label: 'Email Address', name: 'email', widget: 'string', required: false}
+      # - label: "Social Media"
+      #   name: "social_media"
+      #   file: "src/content/social_media/social_media.md"
+      #   fields:
+      #     - {label: "Layout", name: "layout", widget: "hidden", default: "partials/footer.njk"}
+      #     - {label: 'Website Links', name: 'web_link', widget: 'string'}
+      #     - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
+      #     - {label: 'Twitter (X) URL', name: 'x', widget: 'string'}
+      #     - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string'}
+      #     - {label: 'Instagram URL', name: 'instagram', widget: 'string'}
+      #     - {label: 'YouTube URL', name: 'youtube', widget: 'string'}
+      #     - {label: 'TikTok URL', name: 'tiktok', widget: 'string'}
+      #     - {label: 'Email Address', name: 'email', widget: 'string', required: false}
       - label: "Home Page"
         name: home
         file: "src/content/index.md"
@@ -266,21 +266,21 @@ collections:
       - {label: "Twitter", name: "twitter", widget: "string",  required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
       - {label: "Order", name: "order", widget: "number", required: true, value_type: "int"}
-  # - name: "social_media"
-  #   label: "Social Media"
-  #   folder: "src/content/social_media"
-  #   create: true
-  #   delete: false
-  #   slug: 'social-media'
-  #   fields:
-  #     - {label: 'Website Links', name: 'web_link', widget: 'string'}
-  #     - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
-  #     - {label: 'Twitter (X) URL', name: 'x', widget: 'string'}
-  #     - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string'}
-  #     - {label: 'Instagram URL', name: 'instagram', widget: 'string'}
-  #     - {label: 'YouTube URL', name: 'youtube', widget: 'string'}
-  #     - {label: 'TikTok URL', name: 'tiktok', widget: 'string'}
-  #     - {label: 'Email Address', name: 'email', widget: 'string', required: false}
+  - name: "social_media"
+    label: "Social Media"
+    folder: "src/content/social_media"
+    create: true
+    delete: false
+    slug: 'social-media'
+    fields:
+      - {label: 'Website Links', name: 'web_link', widget: 'string'}
+      - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
+      - {label: 'Twitter (X) URL', name: 'x', widget: 'string'}
+      - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string'}
+      - {label: 'Instagram URL', name: 'instagram', widget: 'string'}
+      - {label: 'YouTube URL', name: 'youtube', widget: 'string'}
+      - {label: 'TikTok URL', name: 'tiktok', widget: 'string'}
+      - {label: 'Email Address', name: 'email', widget: 'string', required: false}
   - name: "clients" 
     label: "Client" 
     folder: "src/content/clients" 
