@@ -103,7 +103,7 @@ collections:
               - {label: "Image", name: "img", widget: "image"}
       - label: "Resources Page"
         name: "resources"
-        file: "src/content/resources/index.md"
+        file: "src/content/insights/resources.md"
         create: true
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "resources.njk"}
