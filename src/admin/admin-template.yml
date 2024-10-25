@@ -261,13 +261,10 @@ collections:
     slug: 'social-media'
     fields:
       - {label: 'Website Links', name: 'web_link', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
+      - {label: 'YouTube URL', name: 'youtube', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
       - {label: 'Facebook URL', name: 'facebook', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
       - {label: 'Twitter (X) URL', name: 'x', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
       - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
-      - {label: 'Instagram URL', name: 'instagram', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
-      - {label: 'YouTube URL', name: 'youtube', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
-      - {label: 'TikTok URL', name: 'tiktok', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
-      - {label: 'Email Address', name: 'email', widget: 'string', required: false}
   - name: "clients" 
     label: "Client" 
     folder: "src/content/clients" 
