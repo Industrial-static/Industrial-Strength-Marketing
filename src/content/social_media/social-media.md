@@ -1,7 +1,7 @@
 ---
-web_link: https://industrialstrengthmarketing.com/
+web_link: https://www.facebook.com/
 facebook: https://www.facebook.com/
-x: https://www.linkedin.com/
+x: https://x.com/?lang=en
 linkedin: https://www.linkedin.com/
 instagram: https://www.instagram.com/
 youtube: https://www.youtube.com/
