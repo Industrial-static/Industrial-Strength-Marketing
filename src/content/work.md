@@ -31,5 +31,10 @@ case_studies:
     url: https://industrialstrengthmarketing.com/work/manufacturing-day/
     image: /img/uploads/mfgday-overview.jpg
     image_alt: None
+  - heading: Hennessy Services Network
+    description: INDUSTRIAL launched Hennessy's workforce recruitment program in
+      just 30 days, resulting in 100% more qualified job applicants.
+    image: /img/uploads/hen_recuit-overview.jpg
+    url: https://industrialstrengthmarketing.com/work/hennessy-workforce-recruitment-program/
 ---
 Demo
