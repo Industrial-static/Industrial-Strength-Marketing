@@ -1,7 +1,7 @@
 ---
 layout: footer.njk
 web_link: https://industrialstrengthmarketing.com/
-facebook: https://www.facebook.com/
+facebook: https://www.facebook.com
 x: https://x.com/?lang=en
 linkedin: https://www.linkedin.com/
 instagram: https://www.instagram.com/
