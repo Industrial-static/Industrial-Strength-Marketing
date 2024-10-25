@@ -139,7 +139,7 @@ collections:
         name: "social_media"
         file: "src/content/social_media/social_media.md"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "footer.njk"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/partials/footer.njk"}
           - {label: 'Website Links', name: 'web_link', widget: 'string'}
           - {label: 'Facebook URL', name: 'facebook', widget: 'string'}
           - {label: 'Twitter (X) URL', name: 'x', widget: 'string'}
