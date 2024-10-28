@@ -9,9 +9,9 @@
 
             <!-- Loop through policies and render with HTML-safe content -->
             {% for policy in policies %}
-                <h3 class="{{ path | cssClassify }}">{{ policy.page_title | safe }}</h3>
+                <h3 class="{{ path | cssClassify }}">{{ policy.policy_title | safe }}</h3>
                 <div class="{{ path | cssClassify }}">  <!-- Common class applied to wrapping div -->
-                    {% for paragraph in policy.page_description.split('\n\n') %}
+                    {% for paragraph in policy.policy_description.split('\n\n') %}
                         <p class="{{ path | cssClassify }}">{{ paragraph | safe }}</p> <!-- Common class and safe filter applied to each paragraph -->
                     {% endfor %}
                 </div>
