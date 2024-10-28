@@ -285,35 +285,6 @@ collections:
       <!-- @include-static partials/base-fields.yml -->
       <!-- @include-static partials/jumbotron.yml -->
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "portfolio" 
-    label: "Potfolio Pages" 
-    description: "Internal pages for housing portfolio assets."
-    folder: "src/content/portfolio" 
-    create: true
-    fields: 
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Private", name: "Private", widget: "hidden", default: true}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio.njk"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - name: media
-        label: Media
-        widget: list
-        fields:
-          - {label: "Title", name: "title", widget: "string", tagname: "h3"}
-          - {label: "Image", name: "img", widget: "image"}
-      - name: email
-        label: Emails
-        widget: list
-        fields:
-          - {label: "Title", name: "title", widget: "string", tagname: "h3"}
-          - {label: "Image", name: "img", widget: "image"}
-      - name: lps
-        label: Pages
-        widget: list
-        fields:
-          - {label: "Title", name: "title", widget: "string", tagname: "h3"}
-          - {label: "Image", name: "img", widget: "image"}
-          - {label: "URL", name: "url", widget: "string"}
   <!-- @include articles.yml -->
   <!-- @include videos.yml -->
   <!-- @include podcasts.yml -->
