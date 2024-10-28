@@ -77,26 +77,29 @@
             <div class="col-sm-3  col-xs-6">
                 <h4>Community</h4>
                 <div class="footer-socials">
-                    {% if socialMedia.web_link %}
-                        <a href="{{ socialMedia.web_link }}" target="_blank" rel="noopener">Website</a>
+                    {% if social-media.web_link %}
+                        <a href="{{ social-media.web_link }}" target="_blank" rel="noopener">Website</a>
                     {% endif %}
-                    {% if socialMedia.youtube %}
-                        <a href="{{ socialMedia.youtube }}" target="_blank" rel="noopener">
+                    {% if social-media.youtube %}
+                        <a href="{{ social-media.youtube }}" target="_blank" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13"><path fill="#FFF" d="..."/></svg>YouTube
                         </a>
                     {% endif %}
-                    {% if socialMedia.facebook %}
-                        <a href="{{ socialMedia.facebook }}" target="_blank" rel="noopener">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path fill="#FFF" d="..."/></svg>Facebook
-                        </a>
+                    {% if social-media.facebook %}
+                        <a href="{{ social-media.facebook }}" target="_blank" rel="noopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path fill="#FFF" d="M3 0h12a3 3 0 013 3v12a3 3 0 01-3 3H3a3 3 0 01-3-3V3a3 3 0 013-3zm6.542 18h3.155v-7.737h2.118l.283-2.658h-2.401V6.276c0-.712.047-1.092 1.035-1.092h1.319V2.526h-2.119c-2.542 0-3.437 1.282-3.437 3.465v1.614h-1.6v2.658h1.6V18h.047z"/></svg>
+                    Facebook</a>
                     {% endif %}
-                    {% if socialMedia.x %}
-                        <a href="{{ socialMedia.x }}" target="_blank" rel="noopener">
+
+            
+
+                    {% if social-media.x %}
+                        <a href="{{ social-media.x }}" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" aria-hidden="true" width="16" ><g><path fill="#898989" d="..."></path></g></svg>Twitter (X)
                         </a>
                     {% endif %}
-                    {% if socialMedia.linkedin %}
-                        <a href="{{ socialMedia.linkedin }}" target="_blank" rel="noopener">
+                    {% if social-media.linkedin %}
+                        <a href="{{ social-media.linkedin }}" target="_blank" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path fill="#FFF" d="..."/></svg>LinkedIn
                         </a>
                     {% endif %}
