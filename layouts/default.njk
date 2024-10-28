@@ -1,19 +1,19 @@
-.................................default.njk...........................
-
-
 {% extends "layout.njk" %}
 {% block body %}
 <div class="container-fluid {{ 'padding-top' if headerCssClass}}">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 {{ path | cssClassify}} main-copy">
             <!-- Title and Last Updated Date -->
-            <h2 id="industrials-website-privacy-policy">{{ title }}</h2>
-            <p><em>{{ last_updated_date }}</em></p>
+            <h2>{{ title }}</h2>
+            <p><i>{{ last_updated_date }}</i></p>
 
             <!-- Loop through policies and render with HTML-safe content -->
-        {!! policies !!}
-
-
+            {% for policy in policies %}
+                <h3>{{ policy.page_title }}</h3>
+                {% for paragraph in policy.page_description.split('\n\n') %}
+                    <p>{{ paragraph | safe }}</p> <!-- This wraps each paragraph in a <p> tag -->
+                {% endfor %}
+            {% endfor %}
         </div>
     </div>
 </div>
