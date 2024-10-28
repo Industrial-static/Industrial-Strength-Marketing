@@ -11,7 +11,7 @@
             <p><em>{{ last_updated_date }}</em></p>
 
             <!-- Loop through policies and render with HTML-safe content -->
-           {{policies}}
+            {{ policies | safe }}
         </div>
     </div>
 </div>
