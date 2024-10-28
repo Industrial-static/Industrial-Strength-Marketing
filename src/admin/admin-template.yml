@@ -27,7 +27,6 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
           - {label: "Policy Title", name: "policy_title", widget: "string"}
           - {label: "Policy Description", name: "policy_description", widget: "markdown", required: true}
-          # <!-- @include-static partials/base-fields.yml -->
       - label: "Work Page"
         name: work
         file: "src/content/work.md"
