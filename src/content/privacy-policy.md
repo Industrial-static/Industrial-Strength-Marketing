@@ -117,7 +117,7 @@ policies:
       \- because you have expressly given us your consent to process your personal information in a particular manner.
 
 
-      \- We do not use your personal information for making any automated decisions affecting or creating profiles other than as described above.
+      \- We do not use your personal information for making any automated decisions affecting or creating profiles other than as described above...
 
 
       <!--EndFragment-->
