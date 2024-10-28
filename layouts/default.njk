@@ -12,9 +12,9 @@
 
             <!-- Loop through policies and render with HTML-safe content -->
             {% for policy in policies %}
-                <h3>{{ policy.page_title }}</h3>
+                <h3 class="{{ path | cssClassify }}">{{ policy.page_title }}</h3>
                 {% for paragraph in policy.page_description.split('\n\n') %}
-                    <p>{{ paragraph | safe }}</p> <!-- This wraps each paragraph in a <p> tag -->
+                    <p class="{{ path | cssClassify }}">{{ paragraph | safe }}</p>
                 {% endfor %}
             {% endfor %}
         </div>
