@@ -121,12 +121,7 @@ policies:
 
 
       <!--EndFragment-->
-policy_description: |-
-  <!--StartFragment-->
-
-  *Updated May 25, 2018*
-
-  <!--EndFragment-->
+policy_description: "*Updated May 25, 2018*"
 ---
 
 ## INDUSTRIAL’S Website Privacy Policy
