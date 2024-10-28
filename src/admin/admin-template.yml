@@ -260,6 +260,7 @@ collections:
     delete: false
     slug: 'social-media'
     fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "footer.njk"}
       - {label: 'Website Links', name: 'web_link', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
       - {label: 'YouTube URL', name: 'youtube', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
       - {label: 'Facebook URL', name: 'facebook', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
