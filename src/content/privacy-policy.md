@@ -124,7 +124,7 @@ policies:
 policy_description: |-
   <!--StartFragment-->
 
-  ***Updated May 25, 2018***
+  *Updated May 25, 2018*
 
   <!--EndFragment-->
 ---
