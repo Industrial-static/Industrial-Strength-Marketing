@@ -165,22 +165,6 @@ collections:
               - {label: "Title", name: "title", widget: "string", tagname: "h3"}
               - {label: "Text", name: "content", widget: "text"}
               - {label: "Image", name: "img", widget: "image"}
-      - label: "Sales Enablement"
-        name: "sales_enablement"
-        file: "src/content/services/sales-enablement.md"
-        <!-- @include partials/pillar-page-fields.yml -->
-      - label: "Brand Strategy"
-        name: "brand_strategy"
-        file: "src/content/services/brand-strategy.md"
-        <!-- @include partials/pillar-page-fields.yml -->
-      - label: "Integrated Marketing"
-        name: "integrated_marketing"
-        file: "src/content/services/integrated-marketing.md"
-        <!-- @include partials/pillar-page-fields.yml -->
-      - label: "Analytics & Insights"
-        name: "analytics"
-        file: "src/content/services/analytics-and-insights.md"
-        <!-- @include partials/pillar-page-fields.yml -->
   - name: "case-study"
     label_singular: "Case Study"
     label: "Case Studies"
