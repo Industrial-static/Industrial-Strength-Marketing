@@ -20,21 +20,21 @@ collections:
           <!-- @include-static partials/base-fields.yml -->
           <!-- @include-static partials/jumbotron.yml -->
           - {label: "Body", name: "body", widget: "markdown"}
-       - label: "Privacy-Policy Page"
-         name: "privacy_policy"
-         file: "src/content/privacy-policy.md"
-         fields:
-           - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
-           - {label: "Title", name: "title", widget: "string", default: "Industrial's Website Privacy Policy"}
-           - {label: "Last Updated Date", name: "last_updated_date", widget: "string"}
-           - label: "Policies"
-             name: "policies"
-             widget: "list"
-             collapsed: true
-             required: false
-             fields:
-               - {label: "Page Title", name: "page_title", widget: "string"}
-               - {label: "Page Description", name: "page_description", widget: "markdown"}
+      - label: "Privacy-Policy Page"
+        name: "privacy_policy"
+        file: "src/content/privacy-policy.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default.njk"}
+          - {label: "Title", name: "title", widget: "string", default: "Industrial's Website Privacy Policy"}
+          - {label: "Last Updated Date", name: "last_updated_date", widget: "string"}
+          - label: "Policies"
+            name: "policies"
+            widget: "list"
+            collapsed: true
+            required: false
+            fields:
+              - {label: "Page Title", name: "page_title", widget: "string"}
+              - {label: "Page Description", name: "page_description", widget: "markdown"}
       - label: "Work Page"
         name: work
         file: "src/content/work.md"
