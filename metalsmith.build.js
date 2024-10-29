@@ -237,9 +237,9 @@ const siteBuild = metalsmith(__dirname)
             },
             work: {
                 pattern: ["work/*.md", "!work/index.md", "!work/davron.md", "!work/motion-industries.md"],
-                filterBy: function(file){
+                filterBy: function(file) {
                     return file.private !== true;
-            },
+                },
                 sortBy: "order",
             },
             portfolio: {
@@ -283,21 +283,21 @@ const siteBuild = metalsmith(__dirname)
                 pattern: ["clients/*.md", "!clients/index.md"],
                 sortBy: "nav_sort",
             },
-            socialmedia:{
-                pattern :"social_media/social-media.md",
-                refer:false,
+            socialmedia: {
+                pattern: "social_media/social-media.md",
+                refer: false,
+            },
         })
     )
-      .use((files, metalsmith, done) => {
-    const socialMediaData = metalsmith._metadata.collections.socialmedia;
-    if (socialmediaData && socialmediaData.length) {
-      metalsmith.metadata().socialmedia = socialmediaData[0]; // Add to global metadata
-    } else {
-      console.warn("socialMedia.md not found or is empty.");
-    }
-
-    done();
-  })
+    .use((files, metalsmith, done) => {
+        const socialMediaData = metalsmith._metadata.collections.socialmedia;
+        if (socialMediaData && socialMediaData.length) {
+            metalsmith.metadata().socialmedia = socialMediaData[0]; // Add to global metadata
+        } else {
+            console.warn("social_media/social-media.md not found or is empty.");
+        }
+        done();
+    })
     .use(
         pagination({
             "collections.article": {
@@ -335,7 +335,6 @@ const siteBuild = metalsmith(__dirname)
                     return page.private != "true";
                 },
                 pageMetadata: {
-                    // title: "Industrial Strength Marketing Podcast for Manufacturing and Distributors {{pagination.num}}",
                     title: "Industrial Strength Marketing Podcast for Manufacturing and Distributors {{pagination.num}}",
                     seo: { description: "A podcast featuring inspiring conversations with industrial leaders about making marketing the strength of their business." },
                 },
@@ -360,7 +359,6 @@ const siteBuild = metalsmith(__dirname)
         permalinks({
             relative: false,
             duplicatesFail: false,
-            // unique: true,
             linksets: [
                 {
                     match: { collection: "article" },
