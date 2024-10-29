@@ -283,8 +283,21 @@ const siteBuild = metalsmith(__dirname)
                 pattern: ["clients/*.md", "!clients/index.md"],
                 sortBy: "nav_sort",
             },
+            socialmedia:{
+                pattern :"social_media/social-media.md",
+                refer:false,
         })
     )
+      .use((files, metalsmith, done) => {
+    const socialMediaData = metalsmith._metadata.collections.socialmedia;
+    if (socialmediaData && socialmediaData.length) {
+      metalsmith.metadata().socialmedia = socialmediaData[0]; // Add to global metadata
+    } else {
+      console.warn("socialMedia.md not found or is empty.");
+    }
+
+    done();
+  })
     .use(
         pagination({
             "collections.article": {
