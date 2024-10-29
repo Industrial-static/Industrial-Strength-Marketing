@@ -41,7 +41,6 @@ collections:
         create: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "work-index.njk"}
-          # <!-- @include-static partials/jumbotron.yml -->
           <!-- @include-static partials/jumbotron2.yml -->
           <!-- @include-static partials/case_studies.yml -->
       - label: "Contact Us"
@@ -97,7 +96,6 @@ collections:
         create: true
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "resources.njk"}
-          # <!-- @include-static partials/jumbotron.yml -->
           <!-- @include-static partials/jumbotron2.yml -->
           <!-- @include-static partials/base-fields.yml -->
           - label: "Resource List"
