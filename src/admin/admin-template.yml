@@ -256,12 +256,16 @@ collections:
     folder: "src/content/footer"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "footer.njk"}
-      - {label: "Subhead", name: "subhead", widget: "string", required: false}
-      - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Image", name: "footer_image", widget: "image"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: 'URL', name: 'path', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
+      - {label: "Footer Items", name: "footer_items", widget: "list", max: 2, fields: 
+          [
+            {label: "Layout", name: "layout", widget: "hidden", default: "footer.njk"},
+            {label: "Subhead", name: "subhead", widget: "string", required: false},
+            {label: "Title", name: "title", widget: "string", required: false},
+            {label: "Image", name: "footer_image", widget: "image"},
+            {label: "Description", name: "description", widget: "string"},
+            {label: "URL", name: "path", widget: "string", pattern: ['https?://.*', 'Must be a valid URL']}
+          ]
+        }
   - name: "clients" 
     label: "Client" 
     folder: "src/content/clients" 
