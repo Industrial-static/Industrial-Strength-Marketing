@@ -1,6 +1,6 @@
 ---
 title: Social Media Link
-web_link: https://industrialstrengthmarketing.com/
+web_link: https://www.linkedin.com/
 youtube: https://www.youtube.com
 facebook: https://www.facebook.com/
 x: https://x.com/?lang=en
