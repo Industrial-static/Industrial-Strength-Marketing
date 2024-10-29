@@ -1,38 +1,19 @@
 ---
 layout: work-index.njk
-title: "Work "
+title: Tyagi
 show_in_menu: "true"
 nav_sort: 0
 seo:
-  description: ertgrttgrtb
-  page_title: adfregF
+  description: ""
+  page_title: Hlo tyagi
 jumbotron:
-  headline: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-    consectetur, adipisci velit..."'
-  tagline: orem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since
-    the 1500s, when an unknown printer took a galley of type and scrambled it to
-    make a type specimen book. It has survived not only five centuries, but also
-    the leap into electronic typesetting, remaining essentially unchanged. It
-    was popularised in the 1960s with the release of Letraset sheets containing
-    Lorem Ipsum passages, and more recently with desktop publishing software
-    like Aldus PageMaker including versions of Lorem Ipsum
-  img: /img/uploads/2-14_chrisw_social_thumbnail.jpg
+  headline: Our Work
+  tagline: It takes a strategic, creative approach to market a manufacturing company
+  img: /img/uploads/image_2024_10_24t10_55_59_362z.png
   ctaUrl: https://chatgpt.com/
-  ctaText: https://chatgpt.com/
-  img_alt: cvfg
-case_studies:
-  - heading: "TEST "
-    description: orem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release of
-      Letraset sheets containing Lorem Ipsum passages, and more recently with
-      desktop publishing software like Aldus PageMaker including versions of
-      Lorem Ipsum
-    image: /img/uploads/2-13_solo_thumbnail.png
-    url: https://chatgpt.com/
+  ctaText: Tyagi study
+  img_alt: Tyagipur
+  video: /img/uploads/2-13_solo_social_thumbnail.jpg
+case_studies: []
 ---
 Demo
