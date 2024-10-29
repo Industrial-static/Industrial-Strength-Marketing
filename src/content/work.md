@@ -1,40 +1,38 @@
 ---
 layout: work-index.njk
-title: fyuytfyt
+title: "Work "
 show_in_menu: "true"
 nav_sort: 0
 seo:
-  description: Yes, we know how to market a manufacturing company. See how we’re
-    taking the industrial advertising agency to a new level.
-  page_title: "Our Work: Here’s how to market a manufacturing company"
+  description: ertgrttgrtb
+  page_title: adfreg
 jumbotron:
-  headline: Our Work Page............ Data
-  tagline: ""
-  img: /img/heros/work-hero.webp
+  headline: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit..."'
+  tagline: orem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text ever since
+    the 1500s, when an unknown printer took a galley of type and scrambled it to
+    make a type specimen book. It has survived not only five centuries, but also
+    the leap into electronic typesetting, remaining essentially unchanged. It
+    was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software
+    like Aldus PageMaker including versions of Lorem Ipsum
+  img: /img/uploads/2-14_chrisw_social_thumbnail.jpg
+  ctaUrl: https://chatgpt.com/
+  ctaText: https://chatgpt.com/
+  img_alt: cvfg
 case_studies:
-  - heading: Duroair Technologies
-    description: Learn how Duroair's new industrial website design and strategic,
-      integrated approach helped achieve 200% year-over-year revenue growth for
-      the leading North American, industrial clean air solutions provider.
-    url: https://industrialstrengthmarketing.com/work/duroair-technologies/
-    image: /img/uploads/duroair-overview.jpg
-    image_alt: ""
-  - heading: Southern Metal Fabricators
-    description: L﻿earn how industrial website development helped transform Southern
-      Metal Fabricators into an online presence for successful lead generation.
-    image: /img/uploads/smf-overview.jpg
-    url: https://industrialstrengthmarketing.com/work/southern-metal-fabricators/
-    image_alt: None
-  - heading: Manufacturing Day
-    description: Thanks to creative B2B marketing, Manufacturing Day saw their
-      greatest event attendance since the annual event began in 2012.
-    url: https://industrialstrengthmarketing.com/work/manufacturing-day/
-    image: /img/uploads/mfgday-overview.jpg
-    image_alt: None
-  - heading: Hennessy Services Network
-    description: INDUSTRIAL launched Hennessy's workforce recruitment program in
-      just 30 days, resulting in 100% more qualified job applicants.
-    image: /img/uploads/hen_recuit-overview.jpg
-    url: https://industrialstrengthmarketing.com/work/hennessy-workforce-recruitment-program/
+  - heading: "TEST "
+    description: orem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make a type specimen book. It has survived not only five
+      centuries, but also the leap into electronic typesetting, remaining
+      essentially unchanged. It was popularised in the 1960s with the release of
+      Letraset sheets containing Lorem Ipsum passages, and more recently with
+      desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum
+    image: /img/uploads/2-13_solo_thumbnail.png
+    url: https://chatgpt.com/
 ---
 Demo
