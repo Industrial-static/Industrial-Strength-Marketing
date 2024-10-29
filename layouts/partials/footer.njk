@@ -3,26 +3,22 @@
         <div class="footer-articles">
             {% set latestArticle = article[0] %}
             <div class="cell-1 cell" id="article-img">
-                {%- if latestArticle.footer_image1 -%}
-                    {%- set articleThumbnail = latestArticle.footer_image1 -%}
-                {%- else -%}
-                    {%- set articleThumbnail = latestArticle.thumbnail -%}
+                {%- if latestArticle.footer_image -%}
+
                 {%- endif -%}
-                
-                <a href="/{{ latestArticle.path1 }}">
-                    <img src="{{ articleThumbnail }}" class="img-footer img-responsive recent-insight-img" alt="Article Image" />
-                </a>
+                {%- set articleThumbnail = latestArticle.footer_image if latestArticle.footer_image else latestArticle.thumbnail -%}
+                    <a href="/{{latestArticle.path}}">
+                    <img src="{{articleThumbnail}}"  class="img-footer img-responsive" alt=" " class="recent-insight-img" />
+                    </a>
             </div>
             <div class="cell-2 cell">
-                <div class="subhead">{{ latestArticle.subhead1 | getInsightType }}</div>
+                <div class="subhead">{{latestArticle.collection | getInsightType}}</div>
                 <h2 id="article-title">
-                    <a href="/{{ latestArticle.path1 }}">{{ latestArticle.title1 }}</a>
+                    <a href="/{{latestArticle.path}}">
+                        {{latestArticle.title}}</a>
                 </h2>
-                <a href="/{{ latestArticle.path1 }}" id="article-link" rel="noopener" class="link-learn-more copper">
-                    {{ description1 }}
-                </a>
+                <a href="/{{latestArticle.path}}" id="article-link" rel="noopener" class="link-learn-more copper">More Industrial Marketing Articles</a>
             </div>
-
             <div class="cell-3 cell">
                 <div class="article-right">
                     <div class="subhead">Resource Library</div>
