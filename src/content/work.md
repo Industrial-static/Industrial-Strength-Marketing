@@ -5,7 +5,7 @@ show_in_menu: "true"
 nav_sort: 0
 seo:
   description: ertgrttgrtb
-  page_title: adfreg
+  page_title: adfregF
 jumbotron:
   headline: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
     consectetur, adipisci velit..."'
