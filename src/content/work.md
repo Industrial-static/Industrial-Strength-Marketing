@@ -1,6 +1,6 @@
 ---
 layout: work-index.njk
-title: Work
+title: fyuytfyt
 show_in_menu: "true"
 nav_sort: 0
 seo:
@@ -9,7 +9,7 @@ seo:
   page_title: "Our Work: Here’s how to market a manufacturing company"
 jumbotron:
   headline: Our Work Page............ Data
-  tagline: It takes a strategic, creative approach to market a manufacturing company
+  tagline: ""
   img: /img/heros/work-hero.webp
 case_studies:
   - heading: Duroair Technologies
