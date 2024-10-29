@@ -1,8 +1,8 @@
 ---
 title: Social Media Link
-web_link: https://www.linkedin.com/
-youtube: https://www.youtube.com
-facebook: https://www.facebook.com/
-x: https://x.com/?lang=en
-linkedin: https://www.linkedin.com/
+web_link: https://industrialmarketer.com
+youtube: https://youtube.com/c/industrialstrengthmarketing
+facebook: https://www.facebook.com/industrialstrengthmarketing?fref=ts
+x: https://twitter.com/industrialsays
+linkedin: http://www.linkedin.com/company/287765?trk=tyah
 ---
