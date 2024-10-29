@@ -6,5 +6,4 @@
     - {label: "Heading", name: "heading", widget: "string", required: true}
     - {label: "Description", name: "description", widget: "text", required: true}
     - {label: "Image", name: "image", widget: "image", required: true}
-    - {label: "Image Alt Text", name: "image_alt", widget: "string", required: false}
     - {label: "URL", name: "url", widget: "string", required: true}
