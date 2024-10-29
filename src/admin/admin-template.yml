@@ -251,6 +251,17 @@ collections:
       - {label: 'Facebook URL', name: 'facebook', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
       - {label: 'Twitter (X) URL', name: 'x', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
       - {label: 'LinkedIn URL', name: 'linkedin', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
+  - name: "footer"
+    label: "Footer"
+    folder: "src/content/footer"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "footer.njk"}
+      - {label: "Subhead", name: "subhead", widget: "string", required: false}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Image", name: "footer_image", widget: "image"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: 'URL', name: 'path', widget: 'string', pattern: ['https?://.*', 'Must be a valid URL']}
   - name: "clients" 
     label: "Client" 
     folder: "src/content/clients" 
