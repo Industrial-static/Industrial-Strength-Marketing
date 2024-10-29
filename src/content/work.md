@@ -1,6 +1,6 @@
 ---
 layout: work-index.njk
-title: Tyagi
+title: Work
 show_in_menu: "true"
 nav_sort: 0
 seo:
