@@ -1,6 +1,8 @@
 ---
 layout: work-index.njk
 title: Work
+show_in_menu: "true"
+nav_sort: 0
 jumbotron:
   headline: Our Work...
   tagline: It takes a strategic, creative approach to market a manufacturing company
