@@ -1,19 +1,19 @@
 ---
 layout: work-index.njk
-title: Work
-show_in_menu: "true"
-nav_sort: 0
-seo:
-  description: ""
-  page_title: Hlo tyagi
 jumbotron:
   headline: Our Work..
   tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/uploads/work-hero-1-.webp
   ctaUrl: ""
-  ctaText: Our Work
+  ctaText: ""
   img_alt: ""
   video: /img/uploads/2-13_solo_social_thumbnail.jpg
+title: Work
+seo:
+  description: ""
+  page_title: Our Work
+nav_sort: 0
+show_in_menu: "true"
 case_studies:
   - heading: Duroair Technologies
     description: Learn how Duroair's new industrial website design and strategic,
