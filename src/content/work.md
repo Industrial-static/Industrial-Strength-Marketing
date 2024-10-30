@@ -5,7 +5,7 @@ seo:
   description: ""
   page_title: Our Work
 jumbotron:
-  headline: Our Work.
+  headline: Our Work...
   tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/uploads/work-hero-1-.webp
   ctaUrl: ""
