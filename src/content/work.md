@@ -11,7 +11,7 @@ jumbotron:
   tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/uploads/work-hero-1-.webp
   ctaUrl: ""
-  ctaText: ""
+  ctaText: Our Work
   img_alt: ""
   video: /img/uploads/2-13_solo_social_thumbnail.jpg
 case_studies:
