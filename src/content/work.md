@@ -1,19 +1,9 @@
 ---
 layout: work-index.njk
-title: Work
-seo:
-  description: ""
-  page_title: Our Work
 jumbotron:
   headline: Our Work...
   tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/uploads/work-hero-1-.webp
-  ctaUrl: ""
-  ctaText: ""
-  img_alt: ""
-  video: /img/uploads/2-13_solo_social_thumbnail.jpg
-nav_sort: 0
-show_in_menu: "true"
 case_studies:
   - heading: Duroair Technologies
     description: Learn how Duroair's new industrial website design and strategic,
