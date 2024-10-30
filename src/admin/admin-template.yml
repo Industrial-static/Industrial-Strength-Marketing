@@ -42,7 +42,6 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "work-index.njk"}
           <!-- @include-static partials/jumbotron.yml -->
-          <!-- @include-static partials/base-fields.yml -->
           <!-- @include-static partials/case_studies.yml -->
       - label: "Contact Us"
         name: contact_us
