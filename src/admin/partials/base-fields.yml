@@ -1,11 +1,11 @@
-- {label: "Title", name: "title", widget: "string"}
+- {label: "Title", name: "title", widget: "string", required: false}
 - label: SEO
   name: "seo"
   widget: "object"
   collapsed: true
   required: false
   fields:
-    - {label: "Page Title", name: "page_title", widget: "string"}
+    - {label: "Page Title", name: "page_title", widget: "string", required: false}
     - {label: "Page Description", name: "description", widget: "string", required: false}
     - {label: "No index, no follow", name: "noindex", widget: "boolean", required: false}
     - {label: "Canonical link", name: "canonical", widget: "string", required: false, hint: "Not required. One will be generated if not filled in."}
