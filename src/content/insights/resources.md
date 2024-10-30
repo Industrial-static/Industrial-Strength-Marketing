@@ -1,7 +1,7 @@
 ---
 layout: resources.njk
 jumbotron:
-  headline: Resources......Resources......
+  headline: Resources......Resources
   tagline: We believe you can master the top challenges and trends in industrial
     marketing.
   img: /img/uploads/resources-hero-1-.jpg
