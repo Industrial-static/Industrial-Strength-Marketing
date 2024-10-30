@@ -41,18 +41,6 @@ collections:
         create: false
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "work-index.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - label: SEO
-            name: "seo"
-            widget: "object"
-            collapsed: true
-            required: false
-            fields:
-              - {label: "Page Title", name: "page_title", widget: "string"}
-              - {label: "Page Description", name: "description", widget: "string", required: false}
-              - {label: "No index, no follow", name: "noindex", widget: "boolean", required: false}
-              - {label: "Canonical link", name: "canonical", widget: "string", required: false, hint: "Not required. One will be generated if not filled in."}
-          <!-- @include-static partials/jumbotron.yml -->
           <!-- @include-static partials/case_studies.yml -->
       - label: "Contact Us"
         name: contact_us
