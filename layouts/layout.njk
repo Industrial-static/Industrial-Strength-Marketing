@@ -3,29 +3,40 @@
 <head>
     {% include "partials/head.njk" %}
 </head>
-{% if path == 'contact' or path == 'resources' or path == 'privacy-policy'%}
-{% set customCssClass = 'force-bar'%}
-{% endif %}
-<body class="{{ 'jumbo-active' if jumbotron else 'jumbo-inactive' }} {{ path | cssClassify }} {{ customCssClass }}">
-<!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJJ7L2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
-    {% include "partials/header.njk" %}
-    {% if page.url != '/work' and page.url != '/resources' %}
-        {% block jumbotron %}
-            {% include "partials/jumbotron.njk" %}
-        {% endblock %}
-    {% else %}
-        {% block jumbotron %}
-            {% include "partials/jumbotron2.njk" %}
-        {% endblock %}
-    {% endif %}
 
-    {% if disableOuterWrap == false  %}
+{% if path == 'contact' or path == 'resources' or path == 'privacy-policy' %}
+    {% set customCssClass = 'force-bar' %}
+{% endif %}
+
+<body class="{{ 'jumbo-active' if jumbotron else 'jumbo-inactive' }} {{ path | cssClassify }} {{ customCssClass }}">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJJ7L2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    {% include "partials/header.njk" %}
+
+    {% block jumbotron %}
+        {% if page.url != '/work' and page.url != '/resources' %}
+            {% include "partials/jumbotron.njk" %}
+        {% else %}
+            {% include "partials/jumbotron2.njk" %}
+        {% endif %}
+    {% endblock %}
+
+    {% if disableOuterWrap == false %}
     <div class="outer-wrap">
     {% endif %}
+    
         {% block body %}{% endblock %}
+    
     {% if disableOuterWrap == false %}
     </div>
     {% endif %}
+    
     {% include "partials/footer.njk" %}
+
 </body>
 </html>
