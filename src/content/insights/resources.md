@@ -8,18 +8,30 @@ jumbotron:
   video: ""
 resource_list:
   - headline: The Industrial Trade Show Marketing Playbook
-    copy: Get more trade show value before, during, and after your next
+    copy: >+
+      Get more trade show value before, during, and after your next
       manufacturing live event.
-    img: /img/uploads/adobestock_376452528_website.jpg
-    order: 1
+
+    img: /img/uploads/industrial_trade_show_playbook_268.png
+    url: https://chatgpt.com/
     active: "1"
-    url: https://ism.industrialstrengthmarketing.com/en-us/industrial-trade-show-marketing-playbook
-  - headline: How to Choose the Right Industrial Marketing Agency
+  - headline: Marketing in Uncertain Times Report
     copy: Use these 8 criteria and 40 questions to find the right long-term
       marketing partner.
-    url: https://industrialstrengthmarketing.com/industrial-marketing-agency-guide/
-    img: /img/uploads/agency-selection-guide.png
-    order: 2
+    img: /img/uploads/marketing_in_a_recession-thumb.jpg
+    url: https://chatgpt.com/
+    active: "1"
+  - headline: "Know the Drill: The Essential B2B Digital Marketing Toolkit"
+    copy: Make sure your mix includes all the relevant channels for today’s
+      marketing.
+    img: /img/uploads/marketing-toolkit.jpg
+    url: https://chatgpt.com/
+    active: "1"
+  - headline: "Don't Make Me Zoom: 7 Reasons Industrials and B2Bs Need Responsive
+      Websites"
+    copy: Did you know Google penalizes your site if it isn't mobile friendly?
+    img: /img/uploads/makemezoom.jpg
+    url: https://chatgpt.com/
     active: "1"
 show_in_menu: "false"
 title: Resources
