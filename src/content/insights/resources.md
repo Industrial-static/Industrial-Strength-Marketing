@@ -2,7 +2,7 @@
 layout: resources.njk
 jumbotron:
   headline: Rdfdvdfvfdvfd
-  tagline: TYAGI gi ha hum btao632t56
+  tagline: hjdghjgdsyucsgsaghsx
   img: /img/uploads/resources-hero-1-.jpg
   video: ""
 resource_list:
