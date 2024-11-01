@@ -4,13 +4,14 @@ description: >-
   <!--StartFragment-->
 
 
-  \
+  Please use the form on this page for any general inquiries about projects, our work, or just to say "hi." If you are looking for employment, please visit our [Careers page](https://industrialstrengthmarketing.com/about/careers/) to learn more about working with us, and a list of open positions.
 
-  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
+
+  Prefer immediate human interaction?
 
 
   <!--EndFragment-->
-contact_number: "32443543543543543"
+contact_number: Call Us 1-866-529-8908
 url: https://industrialsitepannel.netlify.app/about/careers/
 contact_detail:
   title: Why do we use it? It is a long established fact that a reader will be
@@ -22,9 +23,9 @@ contact_detail:
     randomised words which don't look even slightly believable. If you are going
     to use a passage of Lorem Ipsum, you need to be sure there isn't anything
     embarrassing hidden in the middle of text.
-  image: ""
+  image: /img/uploads/2-12_peterl_thumbnail.png
 show_in_menu: "false"
-title: Tyagi
+title: Contact Us
 seo:
   page_title: "Contact Us: Award-Winning Industrial Marketing Agency"
   description: Please use the form on this page for any general inquiries about
