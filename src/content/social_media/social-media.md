@@ -1,8 +1,8 @@
 ---
 title: Social Media Link
-web_link: https://industrialmarketer.com
-youtube: https://youtube.com/c/industrialstrengthmarketing
-facebook: https://www.facebook.com/industrialstrengthmarketing?fref=ts
-x: https://twitter.com/industrialsays
-linkedin: http://www.linkedin.com/company/287765?trk=tyah
+web_link: https://chatgpt.com/
+youtube: https://docs.google.com/document/d/1otEiZp8RDGWzzaRaZ8Qx1ODoMy18CE11AXUYlifrTQI/edit?tab=t.0
+facebook: https://docs.google.com/document/d/1otEiZp8RDGWzzaRaZ8Qx1ODoMy18CE11AXUYlifrTQI/edit?tab=t.0
+x: https://chatgpt.com/
+linkedin: https://docs.google.com/document/d/1otEiZp8RDGWzzaRaZ8Qx1ODoMy18CE11AXUYlifrTQI/edit?tab=t.0
 ---
