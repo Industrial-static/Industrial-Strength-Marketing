@@ -11,7 +11,7 @@
             {% for policy in policies %}
                 <h3 class="{{ path | cssClassify }}">{{ policy.policy_title | safe }}</h3>
                 <div class="{{ path | cssClassify }}">
-                    {% for paragraph in policy.policy_description.split('\n') %}
+                    {% for paragraph in policy.policy_description.split('\n\n') %}
                         {% if paragraph.startsWith('*') %}
                             <ul>
                                 {% for line in paragraph.split('\n') %}
