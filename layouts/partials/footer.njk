@@ -1,15 +1,12 @@
 <footer class="footer">
     <div class="container-fluid">
        <div class="footer-articles">
-            <!-- Cell 1 -->
             <div class="cell-1 cell" id="article-img">
                 {%- set articleThumbnail = article.footer_image1 if article.footer_image1 else article.thumbnail1 -%}
                 <a href="{{ article.path1 }}">
                     <img src="{{ articleThumbnail }}" class="img-footer img-responsive" alt=" " class="recent-insight-img" />
                 </a>
             </div>
-        
-            <!-- Cell 2 -->
             <div class="cell-2 cell">
                 <div class="subhead">{{ article.subhead1 }}</div>
                 <h2 id="article-title">
@@ -19,8 +16,6 @@
                 </h2>
                 <a href="{{ article.path1 }}" id="article-link" rel="noopener" class="link-learn-more copper">{{ article.description1 }}</a>
             </div>
-        
-            <!-- Cell 3 -->
             <div class="cell-3 cell">
                 <div class="article-right">
                     <div class="subhead">{{ article.subhead2 }}</div>
@@ -32,8 +27,6 @@
                     <a href="{{ article.path2 }}" class="link-learn-more copper" rel="noopener">{{ article.description2 }}</a>
                 </div>
             </div>
-        
-            <!-- Cell 4 -->
             <div class="cell-4 cell">
                 <a href="{{ article.path2 }}" rel="noopener">
                     {{ article.footer_image2 | responsiveImage({ cssClass: 'img-footer', alt: "latest resource image", width: "625", height: "100%" }) }}
