@@ -22,6 +22,15 @@ policies:
 
 
       PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE TREAT YOUR PERSONAL INFORMATION AND THE RELATED CHOICES AND RIGHTS AVAILABLE TO YOU. IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THIS POLICY, YOU SHOULD NOT ACCESS OR USE THE WEBSITE.
+
+
+      - To present and improve Website contact and functionality;
+
+      - To determine user interests, needs and preferences;
+
+      - To provide notice of changes to our Website or the services we offer or provide through 
+         it;
+      - To conduct research and analysis;
 ---
 
 ## INDUSTRIAL’S Website Privacy Policy
