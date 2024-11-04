@@ -20,7 +20,7 @@ policies:
           Industrial Strength Marketing is committed to protecting the privacy and security of the personal information we receive or collect from you. We also believe in transparency and are committed to informing you about how we treat your personal information.
 
 
-          Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, [<a href="](https://industrialstrengthmarketing.com)<https://industrialstrengthmarketing.com>[">](https://industrialstrengthmarketing.com)[https://industrialstrengthmarketing.com</a>](https://industrialstrengthmarketing.com)
+          Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, [](https://industrialstrengthmarketing.com)<https://industrialstrengthmarketing.com>
 
 
           <!--EndFragment-->
