@@ -12,25 +12,45 @@ last_updated_date: Updated May 25, 2018
 policies:
   - policy_title: Overview
     policy_description: >-
-      Industrial Strength Marketing is committed to protecting the privacy and
-      security of the personal information we receive or collect from you. We
-      also believe in transparency and are committed to informing you about how
-      we treat your personal information.
+      <!--StartFragment-->
 
 
-      Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, https://industrialstrengthmarketing.com (the “Website”). The Policy also describes certain rights and options that you have with regard to your personal information.
+      Industrial Strength Marketing is committed to protecting the privacy and security of the personal information we receive or collect from you. We also believe in transparency and are committed to informing you about how we treat your personal information.
+
+
+      Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, https://industrialstrengthmarketing.com (the “Website”). The Policy also describes certain rights and options that you have with regard to your personal information.
 
 
       PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE TREAT YOUR PERSONAL INFORMATION AND THE RELATED CHOICES AND RIGHTS AVAILABLE TO YOU. IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THIS POLICY, YOU SHOULD NOT ACCESS OR USE THE WEBSITE.
 
 
-      - To present and improve Website contact and functionality;
+      <!--StartFragment-->
 
-      - To determine user interests, needs and preferences;
 
-      - To provide notice of changes to our Website or the services we offer or provide through 
-         it;
-      - To conduct research and analysis;
+      To provide you with services you have requested and to manage our relationship with you, including administering your account, processing payments, accounting, auditing, billing and collection, and taking other steps necessary to the performance of our business relationship with you;
+
+
+      * To present and improve Website contact and functionality;
+
+      * To determine user interests, needs and preferences;
+
+      * To provide notice of changes to our Website or the services we offer or provide through it;
+
+      * To conduct research and analysis;
+
+      * To develop new products and services;
+
+      * To manage and maintain the security of our Website and services;
+
+      * To market our services to you. We will only provide you with marketing-related information after you have, where legally required to do so, opted in to receive those communications and having provided you with the opportunity to opt-out of such communications at any time.
+
+      * For comply with our legal and compliance obligations, including maintaining records, performing compliance audits, etc.
+
+
+      <!--EndFragment-->
+
+
+      <!--EndFragment-->
 ---
 
 ## INDUSTRIAL’S Website Privacy Policy
