@@ -14,7 +14,7 @@
                     {% for paragraph in policy.policy_description.split('\n\n') %}
                         {% if paragraph.startsWith('*') %}
                             <ul>
-                                {% for line in paragraph.splitlines() %}
+                                {% for line in paragraph.split('\n') %}
                                     {% if line.trim().startsWith('*') %}
                                         <li>{{ line | replace('* ', '') | safe }}</li>
                                     {% endif %}
