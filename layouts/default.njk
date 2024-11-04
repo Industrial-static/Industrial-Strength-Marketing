@@ -10,10 +10,9 @@
             <!-- Loop through policies and render with HTML-safe content -->
             {% for policy in policies %}
                 <h3 class="{{ path | cssClassify }}">{{ policy.policy_title | safe }}</h3>
-                <div class="{{ path | cssClassify }}">  <!-- Common class applied to wrapping div -->
+                <div class="{{ path | cssClassify }}">
                     {% for paragraph in policy.policy_description.split('\n\n') %}
                         {% if paragraph.startsWith('*') %}
-                            <!-- Render bullet points as a list -->
                             <ul>
                                 {% for line in paragraph.splitlines() %}
                                     {% if line.trim().startsWith('*') %}
@@ -22,7 +21,7 @@
                                 {% endfor %}
                             </ul>
                         {% else %}
-                            <p class="{{ path | cssClassify }}">{{ paragraph | safe }}</p> <!-- Regular paragraph -->
+                            <p class="{{ path | cssClassify }}">{{ paragraph | safe }}</p>
                         {% endif %}
                     {% endfor %}
                 </div>
