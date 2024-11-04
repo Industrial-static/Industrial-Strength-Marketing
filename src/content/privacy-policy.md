@@ -1,31 +1,10 @@
 ---
 layout: default.njk
-title: INDUSTRIAL’S Website Privacy Policy
+title: Privacy Policy
 seo:
-  page_title: Industrial Strength Marketing Agency Privacy Policy
-  description: Industrial Strength Marketing is committed to protecting the
-    privacy and security of the personal information we receive or collect from
-    you.
-headerCssClass: headroom--not-top
-last_updated_date: Updated May 25, 2018
-policies:
-  - policy_title: Overview
-    policy_content:
-      - type: paragraph
-        text: >-
-          <!--StartFragment-->
-
-
-          Industrial Strength Marketing is committed to protecting the privacy and security of the personal information we receive or collect from you. We also believe in transparency and are committed to informing you about how we treat your personal information.
-
-
-          Industrial Strength Marketing has prepared this Privacy Policy (the “Policy”), and any documents referenced therein, to inform you (“you”, “your” or “user”) of our practices regarding personal information that we collect, use, and share through our website, <a href="https://industrialstrengthmarketing.com">https://industrialstrengthmarketing.com</a> (the “Website”). The Policy also describes certain rights and options that you have with regard to your personal information.
-
-
-          PLEASE READ THIS PRIVACY POLICY CAREFULLY TO UNDERSTAND HOW WE TREAT YOUR PERSONAL INFORMATION AND THE RELATED CHOICES AND RIGHTS AVAILABLE TO YOU. IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THIS POLICY, YOU SHOULD NOT ACCESS OR USE THE WEBSITE.
-
-
-          <!--EndFragment-->
+    page_title: "Industrial Strength Marketing Agency Privacy Policy"
+    description: "Industrial Strength Marketing is committed to protecting the privacy and security of the personal information we receive or collect from you."
+headerCssClass: 'headroom--not-top'
 ---
 
 ## INDUSTRIAL’S Website Privacy Policy
