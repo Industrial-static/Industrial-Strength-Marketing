@@ -4,7 +4,7 @@ description: >-
   <!--StartFragment-->
 
 
-  Please use the form on this page for any general inquiries about projects, our work, or just to say "hi." If you are looking for employment, please visit our [Careers page](https://industrialstrengthmarketing.com/about/careers/) to learn more about working with us, and a list of open positions.
+  Please use the form on this page for any general inquiries about projects, our work, or just to say "hi." If you are looking for employment, please visit our <a href="https://industrialstrengthmarketing.com/about/careers/">Careers Page</a> to learn more about working with us, and a list of open positions.
 
 
   Prefer immediate human interaction?
@@ -17,8 +17,8 @@ contact_detail:
   title: " BNA → SAT → SFO"
   description: With our main office located in Nashville and boots on the ground
     in both San Antonio and San Francisco, we work in all parts of the U.S. and
-    can meet you wherever you are.
-  image: /img/uploads/2-12_peterl_thumbnail.png
+    can meet you wherever you are.....
+  image: /img/uploads/nashvegas-1-.jpg
 show_in_menu: "false"
 title: Contact Us
 seo:
