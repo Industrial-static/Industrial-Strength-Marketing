@@ -9,7 +9,7 @@ seo:
 headerCssClass: headroom--not-top
 last_updated_date: Updated May 25, 2018
 policies:
-  - policy_title: Updated May 25, 2018 Overview
+  - policy_title: What Personal Information Do We Collect and Why
     policy_description: >-
       <!--StartFragment-->
 
@@ -24,6 +24,21 @@ policies:
 
 
       <!--EndFragment-->
+    policy_content:
+      - type: paragraph
+        text: >-
+          <!--StartFragment-->
+
+
+          To provide you with services you have requested and to manage our relationship with you, including administering your account, processing payments, accounting, auditing, billing and collection, and taking other steps necessary to the performance of our business relationship with you;
+
+
+          <!--EndFragment-->
+      - type: bullet_list
+        items:
+          - To present and improve Website contact and functionality;
+          - To present and improve Website contact and functionality;
+          - To present and improve Website contact and functionality;
   - policy_title: Our Role in Protecting the Privacy and Security of Your Personal
       Information
     policy_description: >-
@@ -46,6 +61,16 @@ policies:
 
 
       <!--EndFragment-->
+    policy_content:
+      - type: paragraph
+        text: >-
+          <!--StartFragment-->
+
+
+          To provide you with services you have requested and to manage our relationship with you, including administering your account, processing payments, accounting, auditing, billing and collection, and taking other steps necessary to the performance of our business relationship with you;
+
+
+          <!--EndFragment-->
   - policy_title: How Will We Use Your Personal Information?
     policy_description: >-
       <!--StartFragment-->
