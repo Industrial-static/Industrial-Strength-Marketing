@@ -1,35 +1,42 @@
 <footer class="footer">
     <div class="container-fluid">
-        <div class="footer-articles">
-            {% set latestArticle = article[0] %}
+       <div class="footer-articles">
+            <!-- Cell 1 -->
             <div class="cell-1 cell" id="article-img">
-                {%- if latestArticle.footer_image -%}
-
-                {%- endif -%}
-                {%- set articleThumbnail = latestArticle.footer_image if latestArticle.footer_image else latestArticle.thumbnail -%}
-                    <a href="/{{latestArticle.path1}}">
-                    <img src="{{footer_image1}}"  class="img-footer img-responsive" alt=" " class="recent-insight-img" />
-                    </a>
+                {%- set articleThumbnail = article.footer_image1 if article.footer_image1 else article.thumbnail1 -%}
+                <a href="{{ article.path1 }}">
+                    <img src="{{ articleThumbnail }}" class="img-footer img-responsive" alt=" " class="recent-insight-img" />
+                </a>
             </div>
+        
+            <!-- Cell 2 -->
             <div class="cell-2 cell">
-                <div class="subhead">{{latestArticle.collection | getInsightType}}</div>
+                <div class="subhead">{{ article.subhead1 }}</div>
                 <h2 id="article-title">
-                    <a href="/{{latestArticle.path}}">
-                        {{latestArticle.title}}</a>
+                    <a href="{{ article.path1 }}">
+                        {{ article.title1 }}
+                    </a>
                 </h2>
-                <a href="/{{latestArticle.path}}" id="article-link" rel="noopener" class="link-learn-more copper">More Industrial Marketing Articles</a>
+                <a href="{{ article.path1 }}" id="article-link" rel="noopener" class="link-learn-more copper">{{ article.description1 }}</a>
             </div>
+        
+            <!-- Cell 3 -->
             <div class="cell-3 cell">
                 <div class="article-right">
-                    <div class="subhead">Resource Library</div>
-                    <h2><a href="/industrial-marketing-budget-guide/">
-                        Free eBook - Build a rock-solid marketing budget</a></h2>
-                    <a href="/industrial-marketing-budget-guide/" class="link-learn-more copper" rel="noopener">Download Now</a>
+                    <div class="subhead">{{ article.subhead2 }}</div>
+                    <h2>
+                        <a href="{{ article.path2 }}">
+                            {{ article.title2 }}
+                        </a>
+                    </h2>
+                    <a href="{{ article.path2 }}" class="link-learn-more copper" rel="noopener">{{ article.description2 }}</a>
                 </div>
             </div>
+        
+            <!-- Cell 4 -->
             <div class="cell-4 cell">
-                <a href="/industrial-marketing-budget-guide/" rel="noopener">
-                {{ "/img/budget-guide-2022-footer.webp" | responsiveImage({cssClass:'img-footer', alt: "latest resource image", width:"625", height:"100%"})}}
+                <a href="{{ article.path2 }}" rel="noopener">
+                    {{ article.footer_image2 | responsiveImage({ cssClass: 'img-footer', alt: "latest resource image", width: "625", height: "100%" }) }}
                 </a>
             </div>
         </div>
