@@ -34,7 +34,24 @@ collections:
             required: false
             fields:
               - {label: "Policy Title", name: "policy_title", widget: "string"}
-              - {label: "Policy Description", name: "policy_description", widget: "markdown"}
+              - label: "Policy Content"
+                name: "policy_content"
+                widget: "list"
+                types:
+                  - label: "Paragraph"
+                    name: "paragraph"
+                    widget: "object"
+                    fields:
+                      - {label: "Text", name: "text", widget: "markdown"}
+                  - label: "Bullet List"
+                    name: "bullet_list"
+                    widget: "object"
+                    fields:
+                      - label: "Items"
+                        name: "items"
+                        widget: "list"
+                        field:
+                          {label: "Item", name: "item", widget: "string"}
       - label: "Work Page"
         name: work
         file: "src/content/work.md"
