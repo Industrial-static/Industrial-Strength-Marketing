@@ -4,7 +4,7 @@ title: Work
 show_in_menu: "true"
 nav_sort: 0
 jumbotron:
-  headline: ' dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."'
+  headline: Work.....
   tagline: Ipsum is that it has a more-or-less normal distribution of letters, as
     opposed to using 'Content here, content here', making it look like readable
     English. Many desktop publishing packages and web page editors now use Lorem
