@@ -46,7 +46,7 @@ collections:
       - label: "Footer Page"
         name: footer_page
         file: "src/content/footerr/index.md"
-        create: false
+        create: true
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "footer.njk"}
           - {label: "Subhead 1", name: "subhead1", widget: "string", required: false}
