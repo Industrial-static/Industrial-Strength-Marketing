@@ -230,7 +230,7 @@ collections:
     files:
       - label: "Footer Content"
         name: "footer_content"
-        file: "src/content/insights"
+        file: "src/content/footer/index.md"
         create: true
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "footer.njk"}
