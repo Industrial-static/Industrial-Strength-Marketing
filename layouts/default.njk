@@ -10,11 +10,30 @@
             <!-- Loop through policies and render with HTML-safe content -->
             {% for policy in policies %}
                 <h3 class="{{ path | cssClassify }}">{{ policy.policy_title | safe }}</h3>
-                <div class="{{ path | cssClassify }}">  <!-- Common class applied to wrapping div -->
-                    {% for paragraph in policy.policy_description.split('\n\n') %}
-                        <p class="{{ path | cssClassify }}">{{ paragraph | safe }}</p> <!-- Common class and safe filter applied to each paragraph -->
+                <div class="{{ path | cssClassify }}">
+                    {% set is_bullet_list = False %}  <!-- Variable to track if we are in a bullet list -->
+                
+                    {% for paragraph in policy.policy_description.split('\n') %}
+                        {% if paragraph.startswith('* ') %}  <!-- Check if line starts with a bullet point -->
+                            {% if not is_bullet_list %}
+                                <ul>  <!-- Start a new list if not already in one -->
+                                {% set is_bullet_list = True %}
+                            {% endif %}
+                            <li>{{ paragraph[2:] | safe }}</li>  <!-- Remove the "* " and display as list item -->
+                        {% else %}
+                            {% if is_bullet_list %}
+                                </ul>  <!-- Close the list if we are no longer in a bullet point section -->
+                                {% set is_bullet_list = False %}
+                            {% endif %}
+                            <p>{{ paragraph | safe }}</p>  <!-- Render as a paragraph -->
+                        {% endif %}
                     {% endfor %}
+                
+                    {% if is_bullet_list %}
+                        </ul>  <!-- Close the list if it was still open -->
+                    {% endif %}
                 </div>
+
             {% endfor %}
         </div>
     </div>
