@@ -1,6 +1,5 @@
 ---
-layout: footer.njk
-subhead1: article............
+subhead1: article.....article
 title1: 8 B2B Marketing Services That Drive Business Growth.........Growth
 description1: More Industrial Marketing Articles
 footer_image1: /img/uploads/hero_1511x478.jpg
