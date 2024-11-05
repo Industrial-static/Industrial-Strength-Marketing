@@ -17,20 +17,26 @@
                     <a href="{{latestArticle.path1}}">
                         {{latestArticle.title1}}</a>
                 </h2>
-                <a href="{{latestArticle.path1}}" id="article-link" rel="noopener" class="link-learn-more copper">More Industrial Marketing Articles</a>
+                <a href="{{latestArticle.path1}}" id="article-link" rel="noopener" class="link-learn-more copper">{{latestArticle.description1}}</a>
             </div>
             <div class="cell-3 cell">
                 <div class="article-right">
-                    <div class="subhead">Resource Library</div>
-                    <h2><a href="/industrial-marketing-budget-guide/">
-                        Free eBook - Build a rock-solid marketing budget</a></h2>
-                    <a href="/industrial-marketing-budget-guide/" class="link-learn-more copper" rel="noopener">Download Now</a>
-                </div>
+                    <div class="subhead">{{latestArticle.subhead2}}</div>
+                    <h2 id="article-title">
+                        <a href="{{latestArticle.path2}}">
+                            {{latestArticle.title2}}</a>
+                    </h2>
+                    <a href="{{latestArticle.path2}}" id="article-link" rel="noopener" class="link-learn-more copper">{{latestArticle.description2}}</a>
+                    </div>
             </div>
             <div class="cell-4 cell">
-                <a href="/industrial-marketing-budget-guide/" rel="noopener">
-                {{ "/img/budget-guide-2022-footer.webp" | responsiveImage({cssClass:'img-footer', alt: "latest resource image", width:"625", height:"100%"})}}
-                </a>
+                {%- if latestArticle.footer_image2 -%}
+
+                {%- endif -%}
+                {%- set articleThumbnail = latestArticle.footer_image2 if latestArticle.footer_image2 else latestArticle.thumbnail -%}
+                    <a href="{{latestArticle.path2}}">
+                    <img src="{{articleThumbnail}}"  class="img-footer img-responsive" alt=" " class="recent-insight-img" />
+                    </a>
             </div>
         </div>
     </div>
