@@ -239,7 +239,7 @@ collections:
     files:
       - label: "Footer Content"
         name: "footer_content"
-        file: "src/content/insights/articles/8-b2b-marketing-services-that-drive-business-growth.md"
+        file: "src/content/insights/articles"
         create: true
         fields:
           - {label: "Subhead 1", name: "subhead1", widget: "string", required: false}
