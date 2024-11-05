@@ -6,9 +6,9 @@
                 {%- if latestArticle.footer_image -%}
 
                 {%- endif -%}
-                {%- set articleThumbnail = latestArticle.footer_image if latestArticle.footer_image else latestArticle.thumbnail -%}
+                {%- set articleThumbnail = latestArticle.footer_image1 if latestArticle.footer_image1 else latestArticle.thumbnail -%}
                     <a href="/{{latestArticle.path}}">
-                    <img src="{{articlefooter_image1}}"  class="img-footer img-responsive" alt=" " class="recent-insight-img" />
+                    <img src="{{articleThumbnail}}"  class="img-footer img-responsive" alt=" " class="recent-insight-img" />
                     </a>
             </div>
             <div class="cell-2 cell">
