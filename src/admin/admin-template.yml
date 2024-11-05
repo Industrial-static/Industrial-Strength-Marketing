@@ -108,6 +108,9 @@ collections:
               - {label: "URL", name: "url", widget: "string", required: true}
               - {label: "Order", name: "order", widget: "number", required: false, value_type: "int"}
               - {label: "Active", name: "active", widget: "select", required: true, options: [{label: "Inactive", value: "0"}, {label: "Active", value: "1"}]}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Button Text", name: "button_text", widget: "string"}
+          - {label: "Button URL", name: "button_text", widget: "string"}
       - label: "Free Consultation"
         name: "free_consultation"
         file: "src/content/free-consultation.md"
