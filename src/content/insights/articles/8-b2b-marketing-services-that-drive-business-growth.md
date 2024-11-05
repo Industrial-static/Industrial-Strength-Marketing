@@ -1,24 +1,34 @@
 ---
-title: 8 B2B Marketing Services That Drive Business Growth
-seo:
-  page_title: B2B Marketing Services for Manufacturers | INDUSTRIAL
-  description: In this article, we’ll share 10 B2B marketing services that drive
-    business growth for manufacturers and industrial companies.
+layout: blog-post.njk
+path1: https://industrialsitepannel.netlify.app/insights/articles/8-b2b-marketing-services-that-drive-business-growth/
+thumbnail: /img/uploads/thumbnail_308x215.jpg
 jumbotron:
   img: /img/uploads/hero_1511x478.jpg
   img_alt: b2b marketing services
-layout: blog-post.njk
-short_description: In this article, we’ll share 10 B2B marketing services that
-  drive business growth for manufacturers and industrial companies.
+description1: More Industrial Marketing Articles
+description2: Download Now
+path2: https://industrialsitepannel.netlify.app/industrial-marketing-budget-guide/
 date: 2024-06-06
-thumbnail: /img/uploads/thumbnail_308x215.jpg
-thumbnail_alt: b2b marketing services
-post_type: article
 cta:
   headline: MAKE MARKETING THE STRENGTH OF YOUR BUSINESS
   copy: We can help you develop strategies for winning more business
   label: CONTACT US
   url: https://industrialstrengthmarketing.com/contact/
+subhead1: article............
+subhead2: Resource Library..............
+thumbnail_alt: b2b marketing services
+title: 8 B2B Marketing Services That Drive Business Growth
+short_description: In this article, we’ll share 10 B2B marketing services that
+  drive business growth for manufacturers and industrial companies.
+title1: 8 B2B Marketing Services That Drive Business Growth
+post_type: article
+footer_image1: /img/uploads/hero_1511x478.jpg
+title2: Free eBook - Build a rock-solid marketing budget
+footer_image2: /img/uploads/budget-guide-image-1-.png
+seo:
+  page_title: B2B Marketing Services for Manufacturers | INDUSTRIAL
+  description: In this article, we’ll share 10 B2B marketing services that drive
+    business growth for manufacturers and industrial companies.
 ---
 
 
