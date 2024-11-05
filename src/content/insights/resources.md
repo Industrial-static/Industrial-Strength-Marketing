@@ -21,6 +21,9 @@ resource_list:
     img: /img/uploads/agency-selection-guide.png
     order: 2
     active: "1"
+description: Have an idea for our next marketing guide? Contact us now and let us know!
+button_text: SEND US A MESSAGE
+button_url: https://industrialstrengthmarketing.com/contact/
 show_in_menu: "false"
 title: Resources
 nav_sort: 40
