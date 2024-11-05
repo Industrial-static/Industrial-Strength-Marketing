@@ -1,6 +1,6 @@
 ---
 layout: blog-post.njk
-path1: https://industrialsitepannel.netlify.app/insights/articles/8-b2b-marketing-services-that-drive-business-growth/
+path1: https://industrialstrengthmarketing.com/insights/articles/8-b2b-marketing-services-that-drive-business-growth/
 thumbnail: /img/uploads/thumbnail_308x215.jpg
 jumbotron:
   img: /img/uploads/hero_1511x478.jpg
