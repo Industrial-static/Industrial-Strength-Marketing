@@ -239,7 +239,7 @@ collections:
     files:
       - label: "Footer Content"
         name: "footer_content"
-        file: "src/content/insights/articles"
+        file: "src/content/footer/index.md"
         create: true
         fields:
           - { label: "Subhead", name: "subhead", widget: "string", required: false }
