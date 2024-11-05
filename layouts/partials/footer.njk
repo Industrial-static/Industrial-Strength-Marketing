@@ -30,8 +30,11 @@
                     </div>
             </div>
             <div class="cell-4 cell">
+                {%- if latestArticle.footer_image2 -%}
+                {%- endif -%}
+                {%- set articleThumbnail = latestArticle.footer_image2 if latestArticle.footer_image2 else latestArticle.thumbnail -%}
                 <a href="{{latestArticle.path2}}" rel="noopener">
-                {{ "{{latestArticle.footer_image2}}" | responsiveImage({cssClass:'img-footer', alt: "latest resource image", width:"625", height:"100%"})}}
+                    <img src="{{articleThumbnail}}" class="img-footer img-responsive recent-insight-img" alt="latest resource image" width="625" height="100%" />
                 </a>
             </div>
         </div>
