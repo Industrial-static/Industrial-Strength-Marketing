@@ -87,6 +87,15 @@ policies:
 
 
       <!--EndFragment-->
+  - policy_title: How Will We Use Your Personal Information?
+    policy_description: >-
+      <!--StartFragment-->
+
+
+      Industrial Strength Marketing is committed to protecting the privacy and security of the personal information we receive or collect from you. We also believe in transparency and are committed to informing you about how we treat your personal information.
+
+
+      <!--EndFragment-->
 ---
 
 ## INDUSTRIAL’S Website Privacy Policy
