@@ -37,7 +37,7 @@ collections:
               - {label: "Policy Description", name: "policy_description", widget: "markdown"}
       - label: "Footer"
         name: "footer"
-        files: "src/content/insights/articles/8-b2b-marketing-services-that-drive-business-growth.md
+        files: "src/content/insights/articles/8-b2b-marketing-services-that-drive-business-growth.md"
         create: true
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "footer.njk"}
