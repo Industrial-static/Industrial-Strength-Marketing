@@ -4,7 +4,7 @@ title: Work
 show_in_menu: "true"
 nav_sort: 0
 jumbotron:
-  headline: Our Work
+  headline: "OUR WORK "
   tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/uploads/work-hero.webp
 case_studies:
