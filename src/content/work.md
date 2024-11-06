@@ -5,7 +5,8 @@ show_in_menu: "true"
 nav_sort: 0
 jumbotron:
   headline: "OUR WORK "
-  tagline: It takes a strategic, creative approach to market a manufacturing company
+  tagline: "It takes a strategic, creative approach to market a manufacturing
+    company TEST "
   img: /img/uploads/work-hero.webp
 case_studies:
   - heading: Duroair Technologies
