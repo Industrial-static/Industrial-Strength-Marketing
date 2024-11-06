@@ -18,7 +18,7 @@ contact_detail:
   description: With our main office located in Nashville and boots on the ground
     in both San Antonio and San Francisco, we work in all parts of the U.S. and
     can meet you wherever you are.....
-  image: /img/uploads/nashvegas-1-.jpg
+  image: ""
 show_in_menu: "false"
 title: Contact Us
 seo:
