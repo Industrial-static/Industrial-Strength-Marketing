@@ -25,7 +25,7 @@ case_studies:
   - heading: Manufacturing Day
     description: Thanks to creative B2B marketing, Manufacturing Day saw their
       greatest event attendance since the annual event began in 2012.
-    image: /img/uploads/mfgday-overview-1-.jpg
+    image: /img/uploads/nashvegas-1-.jpg
     url: https://chatgpt.com/
   - heading: Hennessy Services Network
     description: INDUSTRIAL launched Hennessy's workforce recruitment program in
