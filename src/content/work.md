@@ -4,7 +4,10 @@ title: Work
 show_in_menu: "true"
 nav_sort: 0
 jumbotron:
-  headline: "Lorem Ipsum is simply dummy text of the printing "
+  headline: Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply
+    dummy text of the printing and typesetting industry. Lorem Ipsum has been
+    the industry's standard dummy text ever since the 1500s, when an unknown
+    printer took a galley of type and
   tagline: Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. Lorem Ipsum has been the industry's standard dummy text ever since
     the 1500s, when an unknown printer took a galley of type and scrambled it to
