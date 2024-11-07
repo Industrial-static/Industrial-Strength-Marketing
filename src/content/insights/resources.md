@@ -79,7 +79,7 @@ resource_list:
     copy: Use these 8 criteria and 40 questions to find the right long-term
       marketing partner.
     url: https://industrialstrengthmarketing.com/industrial-marketing-agency-guide/
-    img: /img/uploads/agency-selection-guide.png
+    img: /img/uploads/agency-selection-guide.jpg
     order: 1
     active: "1"
   - headline: The Industrial Marketing Budget Guide
