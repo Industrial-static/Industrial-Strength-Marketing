@@ -86,7 +86,7 @@ resource_list:
     copy: See how much — and where — savvy marketers spend and maximize your
       investment.
     url: https://industrialstrengthmarketing.com/industrial-marketing-budget-guide/
-    img: /img/uploads/budget-guide-image-1-.png
+    img: /img/uploads/budget-guide-cover-2022.jpg
     order: 3
     active: "1"
 description: Have an idea for our next marketing guide? Contact us now and let
