@@ -45,20 +45,5 @@ case_studies:
       greatest event attendance since the annual event began in 2012.
     image: /img/uploads/mfgday-overview-2-.jpg
     url: https://chatgpt.com/
-  - heading: Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to
-    description: m Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release of
-      Letraset sheets containing Lorem Ipsum passages, and more recently with
-      desktop publishing software like Aldus PageMaker including versions of
-      Lorem Ipsu
-    image: /img/uploads/2.7_steve_kline_social_thumbnail_option.jpg
-    url: https://chatgpt.com/
 ---
 Demo
