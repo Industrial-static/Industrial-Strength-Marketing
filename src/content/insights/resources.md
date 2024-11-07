@@ -26,7 +26,7 @@ resource_list:
     url: https://industrialstrengthmarketing.com/industrial-marketing-agency-guide/
     img: /img/uploads/agency-selection-guide.png
     order: 1
-    active: "0"
+    active: "1"
 description: Have an idea for our next marketing guide? Contact us now and let
   us know!Why do we use it?
 button_text: SEND US A MESSAGEWhy do we use it?
