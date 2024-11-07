@@ -71,7 +71,7 @@ resource_list:
   - headline: The Industrial Trade Show Marketing Playbook
     copy: Get more trade show value before, during, and after your next
       manufacturing live event.
-    img: /img/uploads/adobestock_376452528_website.jpg
+    img: /img/uploads/industrial_trade_show_playbook_268.png
     order: 1
     active: "1"
     url: https://ism.industrialstrengthmarketing.com/en-us/industrial-trade-show-marketing-playbook
