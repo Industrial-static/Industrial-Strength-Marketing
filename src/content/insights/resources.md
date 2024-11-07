@@ -82,9 +82,16 @@ resource_list:
     img: /img/uploads/agency-selection-guide.png
     order: 1
     active: "1"
+  - headline: The Industrial Marketing Budget Guide
+    copy: See how much — and where — savvy marketers spend and maximize your
+      investment.
+    url: https://industrialstrengthmarketing.com/industrial-marketing-budget-guide/
+    img: /img/uploads/budget-guide-image-1-.png
+    order: 3
+    active: "1"
 description: Have an idea for our next marketing guide? Contact us now and let
   us know!Why do we use it?
-button_text: SEND US A MESSAGE Why do we use it?
+button_text: SEND US A MESSAGEWhy do we use it?
 button_url: https://industrialstrengthmarketing.com/contact/
 show_in_menu: "false"
 title: Resources
