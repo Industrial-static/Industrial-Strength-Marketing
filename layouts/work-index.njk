@@ -4,7 +4,7 @@
     {% for item in case_studies %}
     <div class="row case-study">
         <div class="col-sm-7 col-sm-push-5">
-            <div class="img-container"><a href="{{item.url}}"><img src="{{ item.image}}" width="736" class="img-responsive img-case-study-overview work_case_study_img" alt="{{ (item.overviewimg_alt | default("")) | e}}"></a></div>
+            <img src="{{ item.image }}" width="736" style="width: 717px; height: 456px;" class="img-responsive img-case-study-overview work_case_study_img" alt="{{ (item.overviewimg_alt | default("")) | e }}">
         </div>
         <div class="col-sm-5 col-sm-pull-7">
             <h3 class="case-study-overview-title"><a href="{{item.url}}">{{ item.heading}}</a></h3>
