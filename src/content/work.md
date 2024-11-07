@@ -4,9 +4,12 @@ title: Work
 show_in_menu: "true"
 nav_sort: 0
 jumbotron:
-  headline: "OUR WORK "
-  tagline: "It takes a strategic, creative approach to market a manufacturing
-    company TEST "
+  headline: Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text ever since
+    the 1500s, when an unknown printer took a galley of type and scrambled it to
+  tagline: Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text ever since
+    the 1500s, when an unknown printer took a galley of type and scrambled it to
   img: /img/uploads/work-hero.webp
 case_studies:
   - heading: Duroair Technologies
@@ -41,6 +44,21 @@ case_studies:
     description: Thanks to creative B2B marketing, Manufacturing Day saw their
       greatest event attendance since the annual event began in 2012.
     image: /img/uploads/mfgday-overview-2-.jpg
+    url: https://chatgpt.com/
+  - heading: Lorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to
+    description: m Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make a type specimen book. It has survived not only five
+      centuries, but also the leap into electronic typesetting, remaining
+      essentially unchanged. It was popularised in the 1960s with the release of
+      Letraset sheets containing Lorem Ipsum passages, and more recently with
+      desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsu
+    image: /img/uploads/2.7_steve_kline_social_thumbnail_option.jpg
     url: https://chatgpt.com/
 ---
 Demo
