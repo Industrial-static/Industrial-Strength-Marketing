@@ -1,10 +1,16 @@
 ---
 layout: resources.njk
 jumbotron:
-  headline: Resources......Resources......
-  tagline: We believe you can master the top challenges and trends in industrial
-    marketing.
-  img: /img/uploads/resources-hero-1-.jpg
+  headline: Resources
+  tagline: Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text ever since
+    the 1500s, when an unknown printer took a galley of type and scrambled it to
+    make a type specimen book. It has survived not only five centuries, but also
+    the leap into electronic typesetting, remaining essentially unchanged. It
+    was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software
+    like Aldus PageMaker including versions of Lorem Ipsum.
+  img: /img/uploads/2-14_chrisw_social_thumbnail.jpg
   video: ""
 resource_list:
   - headline: The Industrial Trade Show Marketing Playbook
@@ -19,10 +25,11 @@ resource_list:
       marketing partner.
     url: https://industrialstrengthmarketing.com/industrial-marketing-agency-guide/
     img: /img/uploads/agency-selection-guide.png
-    order: 2
-    active: "1"
-description: Have an idea for our next marketing guide? Contact us now and let us know!
-button_text: SEND US A MESSAGE
+    order: 1
+    active: "0"
+description: Have an idea for our next marketing guide? Contact us now and let
+  us know!Why do we use it?
+button_text: SEND US A MESSAGEWhy do we use it?
 button_url: https://industrialstrengthmarketing.com/contact/
 show_in_menu: "false"
 title: Resources
