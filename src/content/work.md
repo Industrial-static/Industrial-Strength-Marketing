@@ -4,33 +4,28 @@ title: Work
 show_in_menu: "true"
 nav_sort: 0
 jumbotron:
-  headline: Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply
-    dummy text of the printing and typesetting industry. Lorem Ipsum has been
-    the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and
-  tagline: Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since
-    the 1500s, when an unknown printer took a galley of type and scrambled it to
+  headline: OUR WORK
+  tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/uploads/work-hero.webp
 case_studies:
-  - heading: Duroair Technologies
+  - heading: DUROAIR TECHNOLOGIES
     description: Learn how Duroair's new industrial website design and strategic,
       integrated approach helped achieve 200% year-over-year revenue growth for
       the leading North American, industrial clean air solutions provider.
     image: /img/uploads/duroair-overview-1-.jpg
-    url: https://chatgpt.com/
-  - heading: Southern Metal Fabricators
+    url: https://industrialstrengthmarketing.com/work/duroair-technologies/
+  - heading: SOUTHERN METAL FABRICATORS
     description: >-
       Where can I get
 
       There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or random
     image: /img/uploads/smf-overview-1-.jpg
-    url: https://chatgpt.com/
-  - heading: Manufacturing Day
+    url: https://industrialstrengthmarketing.com/work/southern-metal-fabricators/
+  - heading: MANUFACTURING DAY
     description: Thanks to creative B2B marketing, Manufacturing Day saw their
       greatest event attendance since the annual event began in 2012.
     image: /img/uploads/nashvegas-1-.jpg
-    url: https://chatgpt.com/
+    url: https://industrialstrengthmarketing.com/work/manufacturing-day/
   - heading: Hennessy Services Network
     description: INDUSTRIAL launched Hennessy's workforce recruitment program in
       just 30 days, resulting in 100% more qualified job applicants.
