@@ -38,8 +38,6 @@ list_items:
   - item: Measure marketing ROI
   - item: Become discoverable on search
   - item: Where can I get some?
-  - item: Hlo just for testing purpose Lorem Ipsum is simply dummy text of the
-      printing and typesetting industry. Lorem Ipsum has b
 ---
 <h1 class="free-consult-title">Request YOUR<br><span class="accent">Free Marketing Consultation</span></h1>
 Whether you’re simply looking for a class-leading website or want a full-service partner that can take marketing off your plate, we can help. Let’s talk, industrial to industrial.
