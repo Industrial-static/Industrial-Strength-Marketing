@@ -1,9 +1,8 @@
 ---
-heading: Request YOUR DUMMY TEXT HERE Lorem Ipsum is simply dummy text of the
-  printing and typesetting industry. Lorem Ipsum has b
+heading: REQUEST YOUR
 headerCssClass: nbm
 layout: landing-page.njk
-subheading: Free Marketing Consultation hlo whatup eberybody
+subheading: FREE MARKETING CONSULTATION
 hubspot_form: >
   <script charset="utf-8" type="text/javascript"
   src="//js.hsforms.net/forms/v2.js"></script>
