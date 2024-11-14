@@ -23,7 +23,7 @@ contact_detail:
     can meet you wherever you are.
   image: /img/uploads/nashvegas.jpg
 show_in_menu: "false"
-title: CONTACT U
+title: CONTACT US
 seo:
   page_title: "Contact Us: Award-Winning Industrial Marketing Agency"
   description: Please use the form on this page for any general inquiries about
