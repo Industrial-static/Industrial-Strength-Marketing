@@ -8,12 +8,6 @@ jumbotron:
   tagline: It takes a strategic, creative approach to market a manufacturing company
   img: /img/uploads/work-hero.webp
 case_studies:
-  - heading: Duroair Technologies
-    description: Learn how Duroair's new industrial website design and strategic,
-      integrated approach helped achieve 200% year-over-year revenue growth for
-      the leading North American, industrial clean air solutions provider.
-    url: https://industrialstrengthmarketing.com/work/duroair-technologies/
-    image: /img/uploads/duroair-overview-1-.jpg
   - heading: Southern Metal Fabricators
     description: L﻿earn how industrial website development helped transform Southern
       Metal Fabricators into an online presence for successful lead generation.
