@@ -7,7 +7,7 @@ jumbotron:
   img_alt: b2b marketing services
 description1: More Industrial Marketing ARTICLE
 description2: TEST NOW
-path2: https://chatgpt.com/
+path2: https://industrialstrengthmarketing.com/industrial-marketing-budget-guide/
 date: 2024-06-06
 cta:
   headline: MAKE MARKETING THE STRENGTH OF YOUR BUSINESS
@@ -20,11 +20,11 @@ thumbnail_alt: b2b marketing services
 title: 8 B2B Marketing Services That Drive Business Growth
 short_description: In this article, we’ll share 10 B2B marketing services that
   drive business growth for manufacturers and industrial companies.
-title1: 8 B2B Marketing Services That Drive Business Growth
+title1: 8 B2B MARKETING SERVICES THAT DRIVE BUSINESS GROWTH
 post_type: article
-footer_image1: /img/uploads/hero_1511x478.jpg
-title2: Free eBook - Build a rock-solid marketing budget
-footer_image2: /img/uploads/2-14_chrisw_social_thumbnail.jpg
+footer_image1: /img/uploads/thumbnail_308x215.jpg
+title2: FREE EBOOK - BUILD A ROCK-SOLID MARKETING BUDGET
+footer_image2: https://industrialstrengthmarketing.com/img/budget-guide-2022-footer.webp
 seo:
   page_title: B2B Marketing Services for Manufacturers | INDUSTRIAL
   description: In this article, we’ll share 10 B2B marketing services that drive
