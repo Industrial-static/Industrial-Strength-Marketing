@@ -4,9 +4,10 @@ jumbotron:
   img: /img/heros/home-hero.jpg
   headline: <div class="subhead">Marketers Since 2003</div>Born <br>Industrial
     <br><span class="accent">Raised <br>Digital</span>
-  ctaUrl: /free-consultation/
+  ctaUrl: https://industrialstrengthmarketing.com/free-consultation/
   ctaText: Talk to an Expert
   ctaCssClass: btn-secondary
+  tagline: Marketers Since 2003 Born Industrial Raised Digital
 title: Industrial
 seo:
   description: Industrial Strength Marketing is a full service B2B industrial
@@ -33,7 +34,6 @@ clients:
     title: Workforce Recruiters
     label: Workforce Recruiting
     url: /clients/workforce-recruitment-marketing/
-
 services:
   - content: Gain clarity on who you are and where you’re going.
     icon: /img/icon-brand-strategy.svg
