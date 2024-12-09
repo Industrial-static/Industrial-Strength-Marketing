@@ -25,7 +25,7 @@ contact_detail:
 show_in_menu: "false"
 title: CONTACT US
 seo:
-  page_title: "Contact Us: Award-Winning Industrial Marketing Agency."
+  page_title: "Contact Us: Award-Winning Industrial Marketing Agency"
   description: Please use the form on this page for any general inquiries about
     projects, our work, or just to say "hi."
   noindex: false
